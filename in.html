@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gráfica de Posiciones por Vuelta</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <input type="file" id="fileInput">
+  <canvas id="positionsChart" width="800" height="400"></canvas>
+  <script>
+    function handleFileSelect(event) {
+      const file = event.target.files[0];
+      const reader = new FileReader();
+      reader.onload = function(event) {
+        const jsonData = JSON.parse(event.target.result);
+        createChart(jsonData);
+      };
+      reader.readAsText(file);
+    }
+
+    document.getElementById('fileInput').addEventListener('change', handleFileSelect, false);
+
+    function convertTime(ms) {
+      const minutes = Math.floor(ms / 60000);
+      const seconds = Math.floor((ms % 60000) / 1000);
+      const centiseconds = Math.floor((ms % 1000) / 10);
+      return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}.${centiseconds < 10 ? '0' : ''}${centiseconds}`;
+    }
+
+    function randomColor() {
+      const r = Math.floor(Math.random() * 256);
+      const g = Math.floor(Math.random() * 256);
+      const b = Math.floor(Math.random() * 256);
+      return `rgba(${r}, ${g}, ${b}, 1)`;
+    }
+
+    function createChart(jsonData) {
+      const uniqueLaps = [...new Set(jsonData.Laps.map(lap => lap.Lap))];
+      const lapData = {};
+
+      uniqueLaps.forEach(lap => {
+        lapData[lap] = jsonData.Laps
+          .filter(lapData => lapData.Lap === lap)
+          .map(lapData => ({
+            DriverName: lapData.DriverName,
+            LapTime: lapData.LapTime
+          }))
+          .sort((a, b) => a.LapTime - b.LapTime)
+          .map((lapData, index) => ({
+            DriverName: lapData.DriverName,
+            Position: index + 1,
+            LapTime: convertTime(lapData.LapTime)
+          }));
+      });
+
+      const driverNames = [...new Set(jsonData.Laps.map(lap => lap.DriverName))];
+      const datasets = driverNames.map(driverName => {
+        return {
+          label: driverName,
+          data: uniqueLaps.map(lap => {
+            const driverLapData = lapData[lap].find(lapData => lapData.DriverName === driverName);
+            return driverLapData ? driverLapData.Position : null;
+          }),
+          fill: false,
+          borderColor: randomColor(),
+          backgroundColor: randomColor(),
+          borderWidth: 2,
+          tension: 0.1
+        };
+      });
+
+      const ctx = document.getElementById('positionsChart').getContext('2d');
+      const positionsChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: uniqueLaps,
+          datasets: datasets
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Vuelta'
+              }
+            },
+            y: {
+              beginAtZero: true,
+              reverse: true,
+              title: {
+                display: true,
+                text: 'Posición'
+              }
+            }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

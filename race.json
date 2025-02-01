@@ -1,0 +1,7116 @@
+{
+  "Version": 7,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "76561199136457655",
+        "GuidsList": [
+          "76561199136457655"
+        ],
+        "Name": "Jon Madrid",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin01",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "76561198971376933",
+        "GuidsList": [
+          "76561198971376933"
+        ],
+        "Name": "Luciano",
+        "Nation": "ARG",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin03",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 253,
+      "MaxPing": 1460
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "76561198826711270",
+        "GuidsList": [
+          "76561198826711270"
+        ],
+        "Name": "A. Santos",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin00",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198115747130",
+        "GuidsList": [
+          "76561198115747130"
+        ],
+        "Name": "VSS RAFA",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin06",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 1,
+      "MaxPing": 1628
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "76561198264127749",
+        "GuidsList": [
+          "76561198264127749"
+        ],
+        "Name": "J.Vega",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin02",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "76561198115747130",
+        "GuidsList": [
+          "76561198115747130"
+        ],
+        "Name": "VSS RAFA",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin06",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 3,
+      "MaxPing": 5
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "76561198146231334",
+        "GuidsList": [
+          "76561198146231334"
+        ],
+        "Name": "Marce Chucky",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin01",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin05",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "76561198060426076",
+        "GuidsList": [
+          "76561198060426076"
+        ],
+        "Name": "J.C. Ortega",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin00",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin06",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 59,
+      "MaxPing": 352
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 10,
+      "Driver": {
+        "Guid": "76561198384879633",
+        "GuidsList": [
+          "76561198384879633"
+        ],
+        "Name": "Diego Mondéjar",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin02",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin05",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 37,
+      "MaxPing": 53
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 12,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin07",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 13,
+      "Driver": {
+        "Guid": "76561198165116696",
+        "GuidsList": [
+          "76561198165116696"
+        ],
+        "Name": "jucarcaz",
+        "Nation": "ITA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin06",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 37,
+      "MaxPing": 291
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 14,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin01",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561198880831122",
+        "GuidsList": [
+          "76561198880831122"
+        ],
+        "Name": "Gino Ivan",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin03",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 275,
+      "MaxPing": 442
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 16,
+      "Driver": {
+        "Guid": "76561198002558242",
+        "GuidsList": [
+          "76561198002558242"
+        ],
+        "Name": "Divad Zerep",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_bmw_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin02",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "Driver": {
+        "Guid": "76561198035924512",
+        "GuidsList": [
+          "76561198035924512"
+        ],
+        "Name": "Daniel Lastra",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin07",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 33,
+      "MaxPing": 38
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 18,
+      "Driver": {
+        "Guid": "",
+        "GuidsList": [
+          ""
+        ],
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin01",
+      "ClassID": "00000000-0000-0000-0000-000000000000",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "ks_audi_dtm_2020",
+      "Restrictor": 0,
+      "Skin": "skin06",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 32,
+      "MaxPing": 1002
+    }
+  ],
+  "Events": [
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 3.454088,
+      "OtherCarId": 19,
+      "OtherDriver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9629903,
+        "Y": -0.297175,
+        "Z": -0.9851126
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -277.44632,
+        "Y": 81.900635,
+        "Z": 293.4004
+      },
+      "Timestamp": 1737836645,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 8.452079,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.97103095,
+        "Y": -0.2969108,
+        "Z": 1.8527969
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -278.25928,
+        "Y": 81.85753,
+        "Z": 294.2587
+      },
+      "Timestamp": 1737836647,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 8.360838,
+      "OtherCarId": 9,
+      "OtherDriver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.6640983,
+        "Y": -0.16001044,
+        "Z": 2.3096795
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 176.91634,
+        "Y": 83.29874,
+        "Z": -49.867653
+      },
+      "Timestamp": 1737836726,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 7.4338617,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.7517725,
+        "Y": -0.2091938,
+        "Z": -2.3468297
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 177.05833,
+        "Y": 83.28364,
+        "Z": -50.24104
+      },
+      "Timestamp": 1737836730,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 82.13516,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.7207578,
+        "Y": -0.29009953,
+        "Z": 2.3138242
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 101.71448,
+        "Y": 77.96892,
+        "Z": -639.81287
+      },
+      "Timestamp": 1737836850,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 4.253388,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9446061,
+        "Y": -0.30111143,
+        "Z": -1.8689786
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -359.45972,
+        "Y": 80.49306,
+        "Z": 436.2526
+      },
+      "Timestamp": 1737836935,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 3,
+      "Driver": {
+        "Guid": "76561198115747130",
+        "GuidsList": [
+          "76561198115747130"
+        ],
+        "Name": "VSS RAFA",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 60.55024,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.9552841,
+        "Y": -0.29336756,
+        "Z": 2.0018158
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -64.72762,
+        "Y": 85.29079,
+        "Z": 127.0054
+      },
+      "Timestamp": 1737836961,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 45.013145,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.664537,
+        "Y": -0.2889915,
+        "Z": 2.352408
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 146.78114,
+        "Y": 76.90144,
+        "Z": -640.25
+      },
+      "Timestamp": 1737837075,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 4.1665573,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.66453063,
+        "Y": -0.28899035,
+        "Z": 2.352378
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 162.16667,
+        "Y": 76.8768,
+        "Z": -651.57324
+      },
+      "Timestamp": 1737837080,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 7.3177133,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.66452605,
+        "Y": -0.28899166,
+        "Z": 2.3523817
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 161.87991,
+        "Y": 76.8821,
+        "Z": -651.359
+      },
+      "Timestamp": 1737837085,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 9,
+      "Driver": {
+        "Guid": "76561198172490387",
+        "GuidsList": [
+          "76561198172490387"
+        ],
+        "Name": "Leivahdez_",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 11.826847,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9419702,
+        "Y": -0.30289578,
+        "Z": -1.7449154
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": -392.6006,
+        "Y": 81.697174,
+        "Z": 355.88095
+      },
+      "Timestamp": 1737837155,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 18.166206,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.9353605,
+        "Y": -0.29089278,
+        "Z": 2.1807687
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -15.77065,
+        "Y": 82.42498,
+        "Z": -6.6492524
+      },
+      "Timestamp": 1737837332,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 13.118845,
+      "OtherCarId": 19,
+      "OtherDriver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9532005,
+        "Y": -0.28423497,
+        "Z": -0.6544245
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -15.773748,
+        "Y": 82.4209,
+        "Z": -6.608265
+      },
+      "Timestamp": 1737837336,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561198880831122",
+        "GuidsList": [
+          "76561198880831122"
+        ],
+        "Name": "Gino Ivan",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 25.062937,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.97104496,
+        "Y": -0.30713794,
+        "Z": -0.6220037
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 104.93299,
+        "Y": 78.17244,
+        "Z": -526.274
+      },
+      "Timestamp": 1737837342,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 4.824453,
+      "OtherCarId": 19,
+      "OtherDriver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.7839613,
+        "Y": -0.20909871,
+        "Z": -2.3462818
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 69.62751,
+        "Y": 78.07803,
+        "Z": -502.40152
+      },
+      "Timestamp": 1737838071,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 2.0211568,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.3093555,
+        "Y": -0.13371697,
+        "Z": 2.3151205
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 69.71795,
+        "Y": 78.08443,
+        "Z": -502.48212
+      },
+      "Timestamp": 1737838072,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 8.65146,
+      "OtherCarId": 19,
+      "OtherDriver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.9710366,
+        "Y": -0.30136758,
+        "Z": 0.020191072
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 551.3568,
+        "Y": 79.32848,
+        "Z": -487.86154
+      },
+      "Timestamp": 1737838091,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 13.261871,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9640079,
+        "Y": -0.29571626,
+        "Z": 1.9177272
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 601.7666,
+        "Y": 79.52005,
+        "Z": -456.6717
+      },
+      "Timestamp": 1737838092,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 17.810574,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9664735,
+        "Y": -0.29164472,
+        "Z": 1.8486133
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 529.43994,
+        "Y": 79.13755,
+        "Z": -494.05984
+      },
+      "Timestamp": 1737838632,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 6.106444,
+      "OtherCarId": 19,
+      "OtherDriver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.9146936,
+        "Y": -0.21454051,
+        "Z": 2.1522527
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 590.4324,
+        "Y": 79.53549,
+        "Z": -467.87277
+      },
+      "Timestamp": 1737838636,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 19.457151,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.9379795,
+        "Y": -0.2913351,
+        "Z": 2.156753
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": 602.3391,
+        "Y": 79.54142,
+        "Z": -446.67368
+      },
+      "Timestamp": 1737838637,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 11,
+      "Driver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 8.131148,
+      "OtherCarId": 19,
+      "OtherDriver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": -0.6597768,
+        "Y": -0.107528836,
+        "Z": 2.2848895
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -38.27784,
+        "Y": 82.48795,
+        "Z": 28.151531
+      },
+      "Timestamp": 1737838696,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 19,
+      "Driver": {
+        "Guid": "76561197994798069",
+        "GuidsList": [
+          "76561197994798069"
+        ],
+        "Name": "Kappy_Astur",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 14.038151,
+      "OtherCarId": 11,
+      "OtherDriver": {
+        "Guid": "76561198956559289",
+        "GuidsList": [
+          "76561198956559289"
+        ],
+        "Name": "Josep Butjosa",
+        "Nation": "ESP",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.78395593,
+        "Y": -0.20997654,
+        "Z": -2.3504305
+      },
+      "Type": "COLLISION_WITH_CAR",
+      "WorldPosition": {
+        "X": -38.541412,
+        "Y": 82.4807,
+        "Z": 28.418308
+      },
+      "Timestamp": 1737838697,
+      "AfterSessionEnd": false
+    },
+    {
+      "CarId": 15,
+      "Driver": {
+        "Guid": "76561198880831122",
+        "GuidsList": [
+          "76561198880831122"
+        ],
+        "Name": "Gino Ivan",
+        "Nation": "PLA",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "ImpactSpeed": 52.01647,
+      "OtherCarId": 0,
+      "OtherDriver": {
+        "Guid": "",
+        "GuidsList": null,
+        "Name": "",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "RelPosition": {
+        "X": 0.6645297,
+        "Y": -0.28898764,
+        "Z": 2.352377
+      },
+      "Type": "COLLISION_WITH_ENV",
+      "WorldPosition": {
+        "X": 127.249405,
+        "Y": 76.90487,
+        "Z": -624.7808
+      },
+      "Timestamp": 1737838942,
+      "AfterSessionEnd": false
+    }
+  ],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 96302,
+      "Restrictor": 0,
+      "Sectors": [
+        38793,
+        27251,
+        30258
+      ],
+      "Timestamp": 1737836731,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 96727,
+      "Restrictor": 0,
+      "Sectors": [
+        39078,
+        27468,
+        30181
+      ],
+      "Timestamp": 1737836732,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 97446,
+      "Restrictor": 0,
+      "Sectors": [
+        39504,
+        28048,
+        29894
+      ],
+      "Timestamp": 1737836732,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 99486,
+      "Restrictor": 0,
+      "Sectors": [
+        37597,
+        27909,
+        33980
+      ],
+      "Timestamp": 1737836734,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 102565,
+      "Restrictor": 0,
+      "Sectors": [
+        41064,
+        30568,
+        30933
+      ],
+      "Timestamp": 1737836737,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 108795,
+      "Restrictor": 0,
+      "Sectors": [
+        40368,
+        28318,
+        40109
+      ],
+      "Timestamp": 1737836744,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 114924,
+      "Restrictor": 0,
+      "Sectors": [
+        39967,
+        28314,
+        46643
+      ],
+      "Timestamp": 1737836750,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": null,
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89845,
+      "Restrictor": 0,
+      "Sectors": [
+        32601,
+        27692,
+        29552
+      ],
+      "Timestamp": 1737836821,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89914,
+      "Restrictor": 0,
+      "Sectors": [
+        32575,
+        27707,
+        29632
+      ],
+      "Timestamp": 1737836822,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 93057,
+      "Restrictor": 0,
+      "Sectors": [
+        35389,
+        27702,
+        29966
+      ],
+      "Timestamp": 1737836825,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 93718,
+      "Restrictor": 0,
+      "Sectors": [
+        32765,
+        30007,
+        30946
+      ],
+      "Timestamp": 1737836831,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 97105,
+      "Restrictor": 0,
+      "Sectors": [
+        37404,
+        28979,
+        30722
+      ],
+      "Timestamp": 1737836841,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 117117,
+      "Restrictor": 0,
+      "Sectors": [
+        55754,
+        27725,
+        33638
+      ],
+      "Timestamp": 1737836851,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 141470,
+      "Restrictor": 0,
+      "Sectors": [
+        75118,
+        31774,
+        34578
+      ],
+      "Timestamp": 1737836891,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89839,
+      "Restrictor": 0,
+      "Sectors": [
+        32725,
+        27427,
+        29687
+      ],
+      "Timestamp": 1737836911,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89898,
+      "Restrictor": 0,
+      "Sectors": [
+        32261,
+        27973,
+        29664
+      ],
+      "Timestamp": 1737836912,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 96309,
+      "Restrictor": 0,
+      "Sectors": [
+        34127,
+        28134,
+        34048
+      ],
+      "Timestamp": 1737836921,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91626,
+      "Restrictor": 0,
+      "Sectors": [
+        33094,
+        28111,
+        30421
+      ],
+      "Timestamp": 1737836923,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 89897,
+      "Restrictor": 0,
+      "Sectors": [
+        32675,
+        27387,
+        29835
+      ],
+      "Timestamp": 1737836931,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 107068,
+      "Restrictor": 0,
+      "Sectors": [
+        46170,
+        27080,
+        33818
+      ],
+      "Timestamp": 1737836959,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89879,
+      "Restrictor": 0,
+      "Sectors": [
+        32810,
+        27401,
+        29668
+      ],
+      "Timestamp": 1737837001,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89657,
+      "Restrictor": 0,
+      "Sectors": [
+        32188,
+        27679,
+        29790
+      ],
+      "Timestamp": 1737837002,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91075,
+      "Restrictor": 0,
+      "Sectors": [
+        32436,
+        28205,
+        30434
+      ],
+      "Timestamp": 1737837014,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 124148,
+      "Restrictor": 0,
+      "Sectors": [
+        66526,
+        27787,
+        29835
+      ],
+      "Timestamp": 1737837015,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90227,
+      "Restrictor": 0,
+      "Sectors": [
+        32825,
+        27270,
+        30132
+      ],
+      "Timestamp": 1737837021,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 103135,
+      "Restrictor": 0,
+      "Sectors": [
+        45967,
+        27500,
+        29668
+      ],
+      "Timestamp": 1737837024,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 118162,
+      "Restrictor": 0,
+      "Sectors": [
+        60801,
+        27494,
+        29867
+      ],
+      "Timestamp": 1737837077,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89260,
+      "Restrictor": 0,
+      "Sectors": [
+        32528,
+        27181,
+        29551
+      ],
+      "Timestamp": 1737837090,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89665,
+      "Restrictor": 0,
+      "Sectors": [
+        32159,
+        27743,
+        29763
+      ],
+      "Timestamp": 1737837091,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 90915,
+      "Restrictor": 0,
+      "Sectors": [
+        32482,
+        28337,
+        30096
+      ],
+      "Timestamp": 1737837105,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 91272,
+      "Restrictor": 0,
+      "Sectors": [
+        32772,
+        27652,
+        30848
+      ],
+      "Timestamp": 1737837112,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88628,
+      "Restrictor": 0,
+      "Sectors": [
+        32099,
+        27055,
+        29474
+      ],
+      "Timestamp": 1737837113,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 3,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 122227,
+      "Restrictor": 0,
+      "Sectors": [
+        36313,
+        50504,
+        35410
+      ],
+      "Timestamp": 1737837138,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90267,
+      "Restrictor": 0,
+      "Sectors": [
+        32729,
+        27640,
+        29898
+      ],
+      "Timestamp": 1737837167,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89749,
+      "Restrictor": 0,
+      "Sectors": [
+        32662,
+        27238,
+        29849
+      ],
+      "Timestamp": 1737837180,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89515,
+      "Restrictor": 0,
+      "Sectors": [
+        32261,
+        27842,
+        29412
+      ],
+      "Timestamp": 1737837181,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91863,
+      "Restrictor": 0,
+      "Sectors": [
+        32593,
+        28629,
+        30641
+      ],
+      "Timestamp": 1737837197,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90103,
+      "Restrictor": 0,
+      "Sectors": [
+        32579,
+        27567,
+        29957
+      ],
+      "Timestamp": 1737837202,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 90173,
+      "Restrictor": 0,
+      "Sectors": [
+        32330,
+        28229,
+        29614
+      ],
+      "Timestamp": 1737837203,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 103919,
+      "Restrictor": 0,
+      "Sectors": [
+        46247,
+        27770,
+        29902
+      ],
+      "Timestamp": 1737837242,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89248,
+      "Restrictor": 0,
+      "Sectors": [
+        32201,
+        27387,
+        29660
+      ],
+      "Timestamp": 1737837256,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89803,
+      "Restrictor": 0,
+      "Sectors": [
+        32639,
+        27392,
+        29772
+      ],
+      "Timestamp": 1737837270,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89596,
+      "Restrictor": 0,
+      "Sectors": [
+        31955,
+        27923,
+        29718
+      ],
+      "Timestamp": 1737837271,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 90729,
+      "Restrictor": 0,
+      "Sectors": [
+        32436,
+        27917,
+        30376
+      ],
+      "Timestamp": 1737837287,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 91130,
+      "Restrictor": 0,
+      "Sectors": [
+        32936,
+        27523,
+        30671
+      ],
+      "Timestamp": 1737837293,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 91114,
+      "Restrictor": 0,
+      "Sectors": [
+        32452,
+        27590,
+        31072
+      ],
+      "Timestamp": 1737837294,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 91497,
+      "Restrictor": 0,
+      "Sectors": [
+        32492,
+        28495,
+        30510
+      ],
+      "Timestamp": 1737837333,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89425,
+      "Restrictor": 0,
+      "Sectors": [
+        32271,
+        27445,
+        29709
+      ],
+      "Timestamp": 1737837346,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90069,
+      "Restrictor": 0,
+      "Sectors": [
+        32851,
+        27536,
+        29682
+      ],
+      "Timestamp": 1737837360,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90518,
+      "Restrictor": 0,
+      "Sectors": [
+        32280,
+        28381,
+        29857
+      ],
+      "Timestamp": 1737837361,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 91181,
+      "Restrictor": 0,
+      "Sectors": [
+        33303,
+        27949,
+        29929
+      ],
+      "Timestamp": 1737837385,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 91428,
+      "Restrictor": 0,
+      "Sectors": [
+        32725,
+        29084,
+        29619
+      ],
+      "Timestamp": 1737837385,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 107387,
+      "Restrictor": 0,
+      "Sectors": [
+        32661,
+        38546,
+        36180
+      ],
+      "Timestamp": 1737837395,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 91359,
+      "Restrictor": 0,
+      "Sectors": [
+        33210,
+        27891,
+        30258
+      ],
+      "Timestamp": 1737837424,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89659,
+      "Restrictor": 0,
+      "Sectors": [
+        32342,
+        27514,
+        29803
+      ],
+      "Timestamp": 1737837435,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89509,
+      "Restrictor": 0,
+      "Sectors": [
+        32615,
+        27109,
+        29785
+      ],
+      "Timestamp": 1737837449,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89885,
+      "Restrictor": 0,
+      "Sectors": [
+        32024,
+        27959,
+        29902
+      ],
+      "Timestamp": 1737837451,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90443,
+      "Restrictor": 0,
+      "Sectors": [
+        32537,
+        27612,
+        30294
+      ],
+      "Timestamp": 1737837475,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 101551,
+      "Restrictor": 0,
+      "Sectors": [
+        32147,
+        27284,
+        42120
+      ],
+      "Timestamp": 1737837487,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 109928,
+      "Restrictor": 0,
+      "Sectors": [
+        50862,
+        28561,
+        30505
+      ],
+      "Timestamp": 1737837505,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 92231,
+      "Restrictor": 0,
+      "Sectors": [
+        33016,
+        28341,
+        30874
+      ],
+      "Timestamp": 1737837517,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89488,
+      "Restrictor": 0,
+      "Sectors": [
+        32469,
+        27229,
+        29790
+      ],
+      "Timestamp": 1737837525,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90480,
+      "Restrictor": 0,
+      "Sectors": [
+        32043,
+        27873,
+        30564
+      ],
+      "Timestamp": 1737837541,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 102156,
+      "Restrictor": 0,
+      "Sectors": [
+        32860,
+        39010,
+        30286
+      ],
+      "Timestamp": 1737837551,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 95996,
+      "Restrictor": 0,
+      "Sectors": [
+        32816,
+        33418,
+        29762
+      ],
+      "Timestamp": 1737837571,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89916,
+      "Restrictor": 0,
+      "Sectors": [
+        32253,
+        28021,
+        29642
+      ],
+      "Timestamp": 1737837577,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91127,
+      "Restrictor": 0,
+      "Sectors": [
+        32691,
+        28160,
+        30276
+      ],
+      "Timestamp": 1737837596,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 90988,
+      "Restrictor": 0,
+      "Sectors": [
+        32862,
+        27823,
+        30303
+      ],
+      "Timestamp": 1737837608,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89339,
+      "Restrictor": 0,
+      "Sectors": [
+        32153,
+        27297,
+        29889
+      ],
+      "Timestamp": 1737837614,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90188,
+      "Restrictor": 0,
+      "Sectors": [
+        32075,
+        28256,
+        29857
+      ],
+      "Timestamp": 1737837632,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 95085,
+      "Restrictor": 0,
+      "Sectors": [
+        37772,
+        27621,
+        29692
+      ],
+      "Timestamp": 1737837646,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 89931,
+      "Restrictor": 0,
+      "Sectors": [
+        32857,
+        27558,
+        29516
+      ],
+      "Timestamp": 1737837661,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88722,
+      "Restrictor": 0,
+      "Sectors": [
+        31868,
+        27086,
+        29768
+      ],
+      "Timestamp": 1737837666,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91613,
+      "Restrictor": 0,
+      "Sectors": [
+        32389,
+        28620,
+        30604
+      ],
+      "Timestamp": 1737837687,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "LapTime": 91401,
+      "Restrictor": 0,
+      "Sectors": [
+        32833,
+        28048,
+        30520
+      ],
+      "Timestamp": 1737837699,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89408,
+      "Restrictor": 0,
+      "Sectors": [
+        32384,
+        27243,
+        29781
+      ],
+      "Timestamp": 1737837704,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90457,
+      "Restrictor": 0,
+      "Sectors": [
+        32236,
+        27949,
+        30272
+      ],
+      "Timestamp": 1737837722,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90242,
+      "Restrictor": 0,
+      "Sectors": [
+        33016,
+        27351,
+        29875
+      ],
+      "Timestamp": 1737837737,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90594,
+      "Restrictor": 0,
+      "Sectors": [
+        32687,
+        27640,
+        30267
+      ],
+      "Timestamp": 1737837752,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88695,
+      "Restrictor": 0,
+      "Sectors": [
+        32107,
+        26964,
+        29624
+      ],
+      "Timestamp": 1737837754,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91011,
+      "Restrictor": 0,
+      "Sectors": [
+        32911,
+        27859,
+        30241
+      ],
+      "Timestamp": 1737837778,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 91055,
+      "Restrictor": 0,
+      "Sectors": [
+        32133,
+        28863,
+        30059
+      ],
+      "Timestamp": 1737837795,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90671,
+      "Restrictor": 0,
+      "Sectors": [
+        32113,
+        28553,
+        30005
+      ],
+      "Timestamp": 1737837813,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89885,
+      "Restrictor": 0,
+      "Sectors": [
+        32636,
+        27423,
+        29826
+      ],
+      "Timestamp": 1737837826,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 89941,
+      "Restrictor": 0,
+      "Sectors": [
+        32570,
+        27279,
+        30092
+      ],
+      "Timestamp": 1737837841,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89640,
+      "Restrictor": 0,
+      "Sectors": [
+        32057,
+        27815,
+        29768
+      ],
+      "Timestamp": 1737837844,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92204,
+      "Restrictor": 0,
+      "Sectors": [
+        33012,
+        28147,
+        31045
+      ],
+      "Timestamp": 1737837871,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89769,
+      "Restrictor": 0,
+      "Sectors": [
+        32632,
+        27365,
+        29772
+      ],
+      "Timestamp": 1737837884,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89823,
+      "Restrictor": 0,
+      "Sectors": [
+        32303,
+        27936,
+        29584
+      ],
+      "Timestamp": 1737837903,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89683,
+      "Restrictor": 0,
+      "Sectors": [
+        32700,
+        27314,
+        29669
+      ],
+      "Timestamp": 1737837916,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90465,
+      "Restrictor": 0,
+      "Sectors": [
+        32640,
+        27531,
+        30294
+      ],
+      "Timestamp": 1737837932,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88605,
+      "Restrictor": 0,
+      "Sectors": [
+        32147,
+        26888,
+        29570
+      ],
+      "Timestamp": 1737837933,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92406,
+      "Restrictor": 0,
+      "Sectors": [
+        32367,
+        29556,
+        30483
+      ],
+      "Timestamp": 1737837963,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89225,
+      "Restrictor": 0,
+      "Sectors": [
+        32116,
+        27477,
+        29632
+      ],
+      "Timestamp": 1737837974,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90360,
+      "Restrictor": 0,
+      "Sectors": [
+        32503,
+        28116,
+        29741
+      ],
+      "Timestamp": 1737837993,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89808,
+      "Restrictor": 0,
+      "Sectors": [
+        32743,
+        27189,
+        29876
+      ],
+      "Timestamp": 1737838006,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 89986,
+      "Restrictor": 0,
+      "Sectors": [
+        32534,
+        27482,
+        29970
+      ],
+      "Timestamp": 1737838022,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89545,
+      "Restrictor": 0,
+      "Sectors": [
+        32139,
+        27819,
+        29587
+      ],
+      "Timestamp": 1737838022,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91206,
+      "Restrictor": 0,
+      "Sectors": [
+        32444,
+        28373,
+        30389
+      ],
+      "Timestamp": 1737838054,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 88927,
+      "Restrictor": 0,
+      "Sectors": [
+        32393,
+        26964,
+        29570
+      ],
+      "Timestamp": 1737838062,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89837,
+      "Restrictor": 0,
+      "Sectors": [
+        32382,
+        27899,
+        29556
+      ],
+      "Timestamp": 1737838083,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89459,
+      "Restrictor": 0,
+      "Sectors": [
+        32665,
+        27207,
+        29587
+      ],
+      "Timestamp": 1737838095,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 91441,
+      "Restrictor": 0,
+      "Sectors": [
+        33000,
+        28080,
+        30361
+      ],
+      "Timestamp": 1737838113,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 95865,
+      "Restrictor": 0,
+      "Sectors": [
+        33062,
+        27973,
+        34830
+      ],
+      "Timestamp": 1737838118,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92681,
+      "Restrictor": 0,
+      "Sectors": [
+        32562,
+        29546,
+        30573
+      ],
+      "Timestamp": 1737838147,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89169,
+      "Restrictor": 0,
+      "Sectors": [
+        32266,
+        27166,
+        29737
+      ],
+      "Timestamp": 1737838152,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 91330,
+      "Restrictor": 0,
+      "Sectors": [
+        32961,
+        28251,
+        30118
+      ],
+      "Timestamp": 1737838174,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90794,
+      "Restrictor": 0,
+      "Sectors": [
+        33428,
+        27496,
+        29870
+      ],
+      "Timestamp": 1737838186,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90829,
+      "Restrictor": 0,
+      "Sectors": [
+        32896,
+        27477,
+        30456
+      ],
+      "Timestamp": 1737838204,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 92704,
+      "Restrictor": 0,
+      "Sectors": [
+        35730,
+        27076,
+        29898
+      ],
+      "Timestamp": 1737838211,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91100,
+      "Restrictor": 0,
+      "Sectors": [
+        32650,
+        28260,
+        30190
+      ],
+      "Timestamp": 1737838238,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89185,
+      "Restrictor": 0,
+      "Sectors": [
+        32021,
+        27509,
+        29655
+      ],
+      "Timestamp": 1737838241,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90051,
+      "Restrictor": 0,
+      "Sectors": [
+        32343,
+        27998,
+        29710
+      ],
+      "Timestamp": 1737838264,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89989,
+      "Restrictor": 0,
+      "Sectors": [
+        32907,
+        27463,
+        29619
+      ],
+      "Timestamp": 1737838276,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90483,
+      "Restrictor": 0,
+      "Sectors": [
+        32788,
+        27769,
+        29926
+      ],
+      "Timestamp": 1737838295,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89142,
+      "Restrictor": 0,
+      "Sectors": [
+        32140,
+        27117,
+        29885
+      ],
+      "Timestamp": 1737838300,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91690,
+      "Restrictor": 0,
+      "Sectors": [
+        33267,
+        27985,
+        30438
+      ],
+      "Timestamp": 1737838330,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89322,
+      "Restrictor": 0,
+      "Sectors": [
+        32190,
+        27468,
+        29664
+      ],
+      "Timestamp": 1737838330,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90017,
+      "Restrictor": 0,
+      "Sectors": [
+        32309,
+        27806,
+        29902
+      ],
+      "Timestamp": 1737838354,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90104,
+      "Restrictor": 0,
+      "Sectors": [
+        33004,
+        27193,
+        29907
+      ],
+      "Timestamp": 1737838366,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90629,
+      "Restrictor": 0,
+      "Sectors": [
+        32741,
+        27779,
+        30109
+      ],
+      "Timestamp": 1737838385,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89522,
+      "Restrictor": 0,
+      "Sectors": [
+        32584,
+        27378,
+        29560
+      ],
+      "Timestamp": 1737838389,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 88730,
+      "Restrictor": 0,
+      "Sectors": [
+        32296,
+        26910,
+        29524
+      ],
+      "Timestamp": 1737838419,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92845,
+      "Restrictor": 0,
+      "Sectors": [
+        33683,
+        28737,
+        30425
+      ],
+      "Timestamp": 1737838423,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89309,
+      "Restrictor": 0,
+      "Sectors": [
+        31863,
+        27886,
+        29560
+      ],
+      "Timestamp": 1737838443,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89103,
+      "Restrictor": 0,
+      "Sectors": [
+        32502,
+        26945,
+        29656
+      ],
+      "Timestamp": 1737838455,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90281,
+      "Restrictor": 0,
+      "Sectors": [
+        32717,
+        27491,
+        30073
+      ],
+      "Timestamp": 1737838476,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89535,
+      "Restrictor": 0,
+      "Sectors": [
+        32151,
+        27333,
+        30051
+      ],
+      "Timestamp": 1737838479,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89354,
+      "Restrictor": 0,
+      "Sectors": [
+        32313,
+        27342,
+        29699
+      ],
+      "Timestamp": 1737838508,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92152,
+      "Restrictor": 0,
+      "Sectors": [
+        32743,
+        29065,
+        30344
+      ],
+      "Timestamp": 1737838515,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89624,
+      "Restrictor": 0,
+      "Sectors": [
+        32304,
+        27751,
+        29569
+      ],
+      "Timestamp": 1737838533,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89558,
+      "Restrictor": 0,
+      "Sectors": [
+        32548,
+        27274,
+        29736
+      ],
+      "Timestamp": 1737838545,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90903,
+      "Restrictor": 0,
+      "Sectors": [
+        32556,
+        27800,
+        30547
+      ],
+      "Timestamp": 1737838566,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88982,
+      "Restrictor": 0,
+      "Sectors": [
+        31936,
+        27427,
+        29619
+      ],
+      "Timestamp": 1737838568,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90552,
+      "Restrictor": 0,
+      "Sectors": [
+        32758,
+        27801,
+        29993
+      ],
+      "Timestamp": 1737838599,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91495,
+      "Restrictor": 0,
+      "Sectors": [
+        33117,
+        27985,
+        30393
+      ],
+      "Timestamp": 1737838606,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 89629,
+      "Restrictor": 0,
+      "Sectors": [
+        32209,
+        27689,
+        29731
+      ],
+      "Timestamp": 1737838623,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90570,
+      "Restrictor": 0,
+      "Sectors": [
+        32452,
+        27616,
+        30502
+      ],
+      "Timestamp": 1737838636,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 93023,
+      "Restrictor": 0,
+      "Sectors": [
+        33340,
+        28525,
+        31158
+      ],
+      "Timestamp": 1737838660,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 92441,
+      "Restrictor": 0,
+      "Sectors": [
+        32209,
+        28386,
+        31846
+      ],
+      "Timestamp": 1737838660,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 88550,
+      "Restrictor": 0,
+      "Sectors": [
+        32048,
+        26964,
+        29538
+      ],
+      "Timestamp": 1737838687,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 93619,
+      "Restrictor": 0,
+      "Sectors": [
+        32855,
+        30501,
+        30263
+      ],
+      "Timestamp": 1737838700,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90051,
+      "Restrictor": 0,
+      "Sectors": [
+        32095,
+        28066,
+        29890
+      ],
+      "Timestamp": 1737838713,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89833,
+      "Restrictor": 0,
+      "Sectors": [
+        32746,
+        27355,
+        29732
+      ],
+      "Timestamp": 1737838725,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89831,
+      "Restrictor": 0,
+      "Sectors": [
+        32304,
+        27746,
+        29781
+      ],
+      "Timestamp": 1737838750,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 91924,
+      "Restrictor": 0,
+      "Sectors": [
+        33208,
+        28750,
+        29966
+      ],
+      "Timestamp": 1737838751,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 89584,
+      "Restrictor": 0,
+      "Sectors": [
+        32277,
+        27396,
+        29911
+      ],
+      "Timestamp": 1737838777,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91252,
+      "Restrictor": 0,
+      "Sectors": [
+        32766,
+        28251,
+        30235
+      ],
+      "Timestamp": 1737838791,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90602,
+      "Restrictor": 0,
+      "Sectors": [
+        32831,
+        28054,
+        29717
+      ],
+      "Timestamp": 1737838803,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89961,
+      "Restrictor": 0,
+      "Sectors": [
+        33108,
+        27269,
+        29584
+      ],
+      "Timestamp": 1737838815,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88832,
+      "Restrictor": 0,
+      "Sectors": [
+        32097,
+        27306,
+        29429
+      ],
+      "Timestamp": 1737838839,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90366,
+      "Restrictor": 0,
+      "Sectors": [
+        32522,
+        27923,
+        29921
+      ],
+      "Timestamp": 1737838842,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90140,
+      "Restrictor": 0,
+      "Sectors": [
+        32536,
+        27783,
+        29821
+      ],
+      "Timestamp": 1737838867,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 91531,
+      "Restrictor": 0,
+      "Sectors": [
+        32865,
+        28368,
+        30298
+      ],
+      "Timestamp": 1737838883,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90075,
+      "Restrictor": 0,
+      "Sectors": [
+        32308,
+        28085,
+        29682
+      ],
+      "Timestamp": 1737838893,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89442,
+      "Restrictor": 0,
+      "Sectors": [
+        32562,
+        27161,
+        29719
+      ],
+      "Timestamp": 1737838905,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 89112,
+      "Restrictor": 0,
+      "Sectors": [
+        32358,
+        27049,
+        29705
+      ],
+      "Timestamp": 1737838928,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90877,
+      "Restrictor": 0,
+      "Sectors": [
+        33313,
+        27481,
+        30083
+      ],
+      "Timestamp": 1737838933,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90142,
+      "Restrictor": 0,
+      "Sectors": [
+        32524,
+        27643,
+        29975
+      ],
+      "Timestamp": 1737838957,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 91201,
+      "Restrictor": 0,
+      "Sectors": [
+        33209,
+        28220,
+        29772
+      ],
+      "Timestamp": 1737838985,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 106750,
+      "Restrictor": 0,
+      "Sectors": [
+        33283,
+        43132,
+        30335
+      ],
+      "Timestamp": 1737838989,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90310,
+      "Restrictor": 0,
+      "Sectors": [
+        33092,
+        27068,
+        30150
+      ],
+      "Timestamp": 1737838995,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88704,
+      "Restrictor": 0,
+      "Sectors": [
+        32094,
+        27180,
+        29430
+      ],
+      "Timestamp": 1737839017,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 89974,
+      "Restrictor": 0,
+      "Sectors": [
+        32468,
+        27392,
+        30114
+      ],
+      "Timestamp": 1737839023,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 88997,
+      "Restrictor": 0,
+      "Sectors": [
+        32054,
+        27109,
+        29834
+      ],
+      "Timestamp": 1737839046,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90370,
+      "Restrictor": 0,
+      "Sectors": [
+        32145,
+        28052,
+        30173
+      ],
+      "Timestamp": 1737839075,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92773,
+      "Restrictor": 0,
+      "Sectors": [
+        33256,
+        28517,
+        31000
+      ],
+      "Timestamp": 1737839082,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89412,
+      "Restrictor": 0,
+      "Sectors": [
+        32469,
+        27292,
+        29651
+      ],
+      "Timestamp": 1737839084,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88847,
+      "Restrictor": 0,
+      "Sectors": [
+        31999,
+        27175,
+        29673
+      ],
+      "Timestamp": 1737839106,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90474,
+      "Restrictor": 0,
+      "Sectors": [
+        32783,
+        27392,
+        30299
+      ],
+      "Timestamp": 1737839113,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90291,
+      "Restrictor": 0,
+      "Sectors": [
+        32592,
+        27495,
+        30204
+      ],
+      "Timestamp": 1737839136,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90734,
+      "Restrictor": 0,
+      "Sectors": [
+        32563,
+        28422,
+        29749
+      ],
+      "Timestamp": 1737839166,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89851,
+      "Restrictor": 0,
+      "Sectors": [
+        32516,
+        27536,
+        29799
+      ],
+      "Timestamp": 1737839174,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 95770,
+      "Restrictor": 0,
+      "Sectors": [
+        33297,
+        31567,
+        30906
+      ],
+      "Timestamp": 1737839178,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88715,
+      "Restrictor": 0,
+      "Sectors": [
+        32060,
+        27252,
+        29403
+      ],
+      "Timestamp": 1737839194,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90157,
+      "Restrictor": 0,
+      "Sectors": [
+        32499,
+        27531,
+        30127
+      ],
+      "Timestamp": 1737839203,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90247,
+      "Restrictor": 0,
+      "Sectors": [
+        32543,
+        27549,
+        30155
+      ],
+      "Timestamp": 1737839227,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90205,
+      "Restrictor": 0,
+      "Sectors": [
+        32367,
+        28278,
+        29560
+      ],
+      "Timestamp": 1737839256,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 90100,
+      "Restrictor": 0,
+      "Sectors": [
+        32621,
+        27586,
+        29893
+      ],
+      "Timestamp": 1737839264,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 97183,
+      "Restrictor": 0,
+      "Sectors": [
+        33638,
+        32689,
+        30856
+      ],
+      "Timestamp": 1737839275,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88346,
+      "Restrictor": 0,
+      "Sectors": [
+        31957,
+        26914,
+        29475
+      ],
+      "Timestamp": 1737839283,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": true,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 90392,
+      "Restrictor": 0,
+      "Sectors": [
+        32954,
+        27531,
+        29907
+      ],
+      "Timestamp": 1737839294,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 90235,
+      "Restrictor": 0,
+      "Sectors": [
+        32703,
+        27386,
+        30146
+      ],
+      "Timestamp": 1737839317,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "LapTime": 90482,
+      "Restrictor": 0,
+      "Sectors": [
+        32581,
+        28062,
+        29839
+      ],
+      "Timestamp": 1737839346,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 1,
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "LapTime": 89682,
+      "Restrictor": 0,
+      "Sectors": [
+        32581,
+        27135,
+        29966
+      ],
+      "Timestamp": 1737839354,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "LapTime": 92004,
+      "Restrictor": 0,
+      "Sectors": [
+        33045,
+        28359,
+        30600
+      ],
+      "Timestamp": 1737839367,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "LapTime": 88914,
+      "Restrictor": 0,
+      "Sectors": [
+        32403,
+        27000,
+        29511
+      ],
+      "Timestamp": 1737839372,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "LapTime": 92442,
+      "Restrictor": 0,
+      "Sectors": [
+        32493,
+        29137,
+        30812
+      ],
+      "Timestamp": 1737839386,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "Cuts": 0,
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "LapTime": 100684,
+      "Restrictor": 0,
+      "Sectors": [
+        31883,
+        27059,
+        41742
+      ],
+      "Timestamp": 1737839418,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 26,
+        "Road": 42,
+        "Grip": 1,
+        "WindSpeed": 14,
+        "WindDirection": 32,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "BestLap": 89309,
+      "CarId": 1,
+      "CarModel": "ks_bmw_dtm_2020",
+      "DriverGuid": "76561198971376933",
+      "DriverName": "Luciano",
+      "Restrictor": 0,
+      "TotalTime": 2711330,
+      "NumLaps": 30,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 4
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 89103,
+      "CarId": 17,
+      "CarModel": "ks_audi_dtm_2020",
+      "DriverGuid": "76561198035924512",
+      "DriverName": "Daniel Lastra",
+      "Restrictor": 0,
+      "TotalTime": 2719196,
+      "NumLaps": 30,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 3
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 88346,
+      "CarId": 19,
+      "CarModel": "ks_audi_dtm_2020",
+      "DriverGuid": "76561197994798069",
+      "DriverName": "Kappy_Astur",
+      "Restrictor": 0,
+      "TotalTime": 2736743,
+      "NumLaps": 30,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 1
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 89897,
+      "CarId": 11,
+      "CarModel": "ks_bmw_dtm_2020",
+      "DriverGuid": "76561198956559289",
+      "DriverName": "Josep Butjosa",
+      "Restrictor": 0,
+      "TotalTime": 2751192,
+      "NumLaps": 30,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 7
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 88550,
+      "CarId": 3,
+      "CarModel": "ks_bmw_dtm_2020",
+      "DriverGuid": "76561198115747130",
+      "DriverName": "VSS RAFA",
+      "Restrictor": 0,
+      "TotalTime": 2782716,
+      "NumLaps": 30,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 2
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 90729,
+      "CarId": 15,
+      "CarModel": "ks_bmw_dtm_2020",
+      "DriverGuid": "76561198880831122",
+      "DriverName": "Gino Ivan",
+      "Restrictor": 0,
+      "TotalTime": 2732022,
+      "NumLaps": 29,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 6
+    },
+    {
+      "BallastKG": 0,
+      "BestLap": 90988,
+      "CarId": 9,
+      "CarModel": "ks_bmw_dtm_2020",
+      "DriverGuid": "76561198172490387",
+      "DriverName": "Leivahdez_",
+      "Restrictor": 0,
+      "TotalTime": 1064118,
+      "NumLaps": 10,
+      "HasPenalty": false,
+      "PenaltyTime": 0,
+      "LapPenalty": 0,
+      "Disqualified": false,
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "GridPosition": 5
+    }
+  ],
+  "Penalties": null,
+  "TrackConfig": "",
+  "TrackName": "rt_zolder",
+  "Type": "RACE",
+  "Date": "2025-01-25T21:12:00Z",
+  "SessionFile": "2025_1_25_21_12_RACE",
+  "SessionConfig": {
+    "session_type": 3,
+    "name": "Race",
+    "time": 45,
+    "laps": 0,
+    "is_open": 2,
+    "wait_time": 60,
+    "visibility_mode": 0,
+    "qualifying_type": 0,
+    "qualifying_number_of_laps_to_average": 0,
+    "count_out_lap": false,
+    "disable_push_to_pass": false
+  },
+  "ChampionshipID": "ea79a5c9-0f85-48e4-83be-37364a5eb049",
+  "RaceWeekendID": "",
+  "EventName": "Zolder, Belgium"
+}

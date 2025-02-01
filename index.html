@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados Assetto Corsa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .car, .event, .lap {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .car h3, .event h3, .lap h3 {
+            margin-top: 0;
+        }
+        .details {
+            margin-left: 20px;
+        }
+        
+        /* Nuevos estilos para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .file-input-container {
+            margin-bottom: 20px;
+        }
+        
+        .file-input-container label {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        #fileInput {
+            display: none;
+        }
+        
+        /* Estilos adicionales para información de carrera */
+        .race-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .position-1 {
+            background-color: #ffd700;
+        }
+        
+        .position-2 {
+            background-color: #c0c0c0;
+        }
+        
+        .position-3 {
+            background-color: #cd7f32;
+        }
+        
+        .best-lap {
+            background-color: #9fff9c;
+            font-weight: bold;
+        }
+        
+        .lap-times {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        .lap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 5px;
+        }
+        
+        .lap-time {
+            padding: 3px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        
+        .show-laps-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8em;
+        }
+        
+        .show-laps-btn:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Nuevos estilos para la tabla de participación */
+        .participation-table {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .participated {
+            background-color: #e8f5e9;
+        }
+        
+        .not-participated {
+            background-color: #ffebee;
+        }
+        
+        .status-icon {
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        
+        .status-yes {
+            color: #2e7d32;
+        }
+        
+        .status-no {
+            color: #c62828;
+        }
+        
+        .admin-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: none; /* Oculto por defecto */
+        }
+        
+        .logout-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        
+        .logout-btn:hover {
+            background-color: #c82333;
+        }
+        
+        .control-btn {
+            padding: 8px 16px;
+            margin: 0 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .control-btn:hover {
+            background-color: #45a049;
+        }
+
+        .control-btn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .warning-text {
+            color: #ff9800;
+            font-weight: bold;
+        }
+
+        .collisions {
+            font-size: 0.9em;
+            color: #d32f2f;
+        }
+
+        .collision-item {
+            margin: 2px 0;
+            padding: 2px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .collision-item:last-child {
+            border-bottom: none;
+        }
+
+        .collisions-container {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #fff3f3;
+            border-radius: 5px;
+            border: 1px solid #ffcdd2;
+        }
+
+        .collision-details {
+            display: grid;
+            gap: 10px;
+        }
+
+        .collision-item {
+            background-color: #fff;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            margin: 2px 0;
+        }
+
+        .show-collisions-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8em;
+            margin-left: 5px;
+        }
+
+        .show-collisions-btn:hover {
+            background-color: #c82333;
+        }
+
+        .podium-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .podium-image {
+            position: relative;
+            display: inline-block;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .podium-bg {
+            width: 100%;
+            height: auto;
+        }
+
+        .podium-names {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-weight: bold;
+        }
+
+        .podium-p1 {
+            order: 2;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+
+        .podium-p2 {
+            order: 1;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .podium-p3 {
+            order: 3;
+            font-size: 1.1em;
+            margin-bottom:0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultados de Carrera</h1>
+    
+    <!-- Información de la carrera -->
+    <div class="race-info" id="raceInfo">
+    </div>
+
+    <!-- Añadir después del <h1> -->
+    <div class="admin-controls" id="adminControls">
+        <div class="file-input-container">
+            <label for="fileInput">Abrir archivo JSON
+                <input type="file" id="fileInput" accept=".json">
+            </label>
+        </div>
+        <button class="logout-btn" onclick="logout()">Cerrar Sesión</button>
+    </div>
+
+    <!-- Tabla modificada -->
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Piloto</th>
+                <th>Coche</th>
+                <th>Mejor Vuelta</th>
+                <th>Vueltas</th>
+                <th>Tiempo Total</th>
+                <th>Equipo</th>
+                <th>Cortes</th>
+                <th>Colisiones</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+
+    <!-- Nueva tabla de participación -->
+    <h2>Participación de Pilotos</h2>
+    <table id="participationTable" class="participation-table">
+        <thead>
+            <tr>
+                <th>Piloto</th>
+                <th>Equipo</th>
+                <th>Participó</th>
+            </tr>
+        </thead>
+        <tbody id="participationTableBody">
+        </tbody>
+    </table>
+
+    <div id="content"></div>
+
+    <script>
+        let data = {};
+
+        async function loadInitialData() {
+            try {
+                const response = await fetch('./race.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                data = await response.json();
+                validateJsonStructure(data);
+                
+                // Actualizar la interfaz
+                updateRaceInfo(data);
+                updateTable();
+                updateParticipationTable();
+                
+                console.log('Datos cargados:', data); // Debug
+                
+            } catch (error) {
+                console.error('Error al cargar race.json:', error);
+                document.getElementById('raceInfo').innerHTML = '';
+                document.getElementById('tableBody').innerHTML = 
+                    '<tr><td colspan="9">Error al cargar los datos. Por favor, inicia sesión como administrador para cargar el archivo.</tr>';
+                document.getElementById('participationTableBody').innerHTML = '';
+            }
+        }
+
+        function checkAdminStatus() {
+            const isAdmin = localStorage.getItem('isAdmin') === 'true';
+            const adminControls = document.getElementById('adminControls');
+            const fileContainer = adminControls.querySelector('.file-input-container');
+            const logoutBtn = adminControls.querySelector('.logout-btn');
+            
+            // Mostrar/ocultar controles de admin
+            if (isAdmin) {
+                fileContainer.style.display = 'inline-block';
+                logoutBtn.style.display = 'inline-block';
+            } else {
+                fileContainer.style.display = 'none';
+                logoutBtn.style.display = 'none';
+            }
+            
+            // Mostrar siempre los controles admin para el botón de login
+            adminControls.style.display = 'block';
+        }
+
+        function logout() {
+            localStorage.removeItem('isAdmin');
+            // Opcional: descomentar si quieres que el logout también limpie los datos
+            // localStorage.removeItem('raceData');
+            // data = {};
+            // updateRaceInfo(data);
+            // updateTable();
+            // updateParticipationTable();
+            checkAdminStatus();
+        }
+
+        // Añadir un botón de login cuando no está autenticado
+        const adminControls = document.getElementById('adminControls');
+        adminControls.innerHTML += `
+            <a href="login.html" class="login-btn" id="loginBtn" style="
+                background-color: #4CAF50;
+                color: white;
+                text-decoration: none;
+                padding: 8px 16px;
+                border-radius: 4px;
+                margin-left: 10px;
+                display: none;
+            ">Login Admin</a>
+        `;
+
+        // Modificar el evento DOMContentLoaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cargar race.json al inicio
+            loadInitialData();
+            checkAdminStatus();
+        });
+
+        function validateJsonStructure(jsonData) {
+            const requiredFields = ['Version', 'Result', 'Cars', 'EventName'];
+            const missingFields = requiredFields.filter(field => !(field in jsonData));
+            
+            if (missingFields.length > 0) {
+                throw new Error(`El archivo JSON no contiene los campos requeridos: ${missingFields.join(', ')}`);
+            }
+            
+            if (!Array.isArray(jsonData.Result) || !Array.isArray(jsonData.Cars)) {
+                throw new Error('Los campos Result y Cars deben ser arrays');
+            }
+            
+            return true;
+        }
+
+        function formatTime(ms) {
+            if (!ms || isNaN(ms)) return 'N/A';
+            
+            const minutes = Math.floor(ms / 60000);
+            const seconds = ((ms % 60000) / 1000).toFixed(3);
+            return `${minutes}:${seconds.padStart(6, '0')}`;
+        }
+
+        function updateRaceInfo(data) {
+            const raceInfo = document.getElementById('raceInfo');
+            
+            // Obtener los tres primeros clasificados
+            const podium = data.Result
+                .filter(result => !result.Disqualified && result.TotalTime > 0)
+                .sort((a, b) => a.TotalTime - b.TotalTime)
+                .slice(0, 3);
+
+            raceInfo.innerHTML = `
+                <h2>${data.EventName || 'Evento sin nombre'}</h2>
+                <div class="podium-container">
+                    <div class="podium-image">
+                        <img src="public/images/podium.png" alt="Podium" class="podium-bg">
+                        <div class="podium-names">
+                            <div class="podium-p2">${podium[1]?.DriverName || '-'}</div>
+                            <div class="podium-p1">${podium[0]?.DriverName || '-'}</div>
+                            <div class="podium-p3">${podium[2]?.DriverName || '-'}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleLapTimes(resultId) {
+            const lapTimesDiv = document.getElementById(`lapTimes-${resultId}`);
+            if (lapTimesDiv.style.display === 'none') {
+                lapTimesDiv.style.display = 'block';
+            } else {
+                lapTimesDiv.style.display = 'none';
+            }
+        }
+
+        function updateTable() {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+
+            if (!data.Result || !Array.isArray(data.Result)) {
+                tableBody.innerHTML = '<tr><td colspan="9">No hay resultados disponibles</td></tr>';
+                return;
+            }
+
+            // Encontrar el número total de vueltas de la carrera
+            totalRaceLaps = Math.max(...data.Result.map(result => result.NumLaps));
+
+            // Encontrar la mejor vuelta general
+            const overallBestLap = Math.min(...data.Result
+                .filter(result => result.BestLap > 0)
+                .map(result => result.BestLap));
+
+            // Modificar el ordenamiento de resultados
+            const sortedResults = data.Result
+                .filter(result => 
+                    !result.Disqualified && 
+                    result.TotalTime > 0 && 
+                    result.NumLaps === totalRaceLaps)
+                .sort((a, b) => a.TotalTime - b.TotalTime);
+
+            // Pilotos que no completaron todas las vueltas pero terminaron algunas
+            const partialResults = data.Result
+                .filter(result => 
+                    !result.Disqualified && 
+                    result.TotalTime > 0 && 
+                    result.NumLaps < totalRaceLaps);
+
+            // DNF - pilotos que no terminaron
+            const dnfResults = data.Result
+                .filter(result => 
+                    !result.Disqualified && 
+                    (result.TotalTime === 0 || result.NumLaps === 0));
+            
+            // Descalificados al final
+            const disqualifiedResults = data.Result
+                .filter(result => result.Disqualified);
+
+            // Función auxiliar para obtener colisiones de un piloto
+            function getCollisions(result) {
+                if (!data.Events) return [];
+                return data.Events
+                    .filter(event => 
+                        event.Type === 'COLLISION_WITH_CAR' && 
+                        (event.CarId === result.CarId || event.OtherCarId === result.CarId))
+                    .map(event => {
+                        const isMainDriver = event.CarId === result.CarId;
+                        const otherDriver = isMainDriver ? event.OtherDriver.Name : event.Driver.Name;
+                        return {
+                            otherDriver,
+                            speed: event.ImpactSpeed,
+                            timestamp: event.Timestamp,
+                            position: event.WorldPosition
+                        };
+                    });
+            }
+
+            // Función auxiliar para obtener cortes de un piloto
+            function getCuts(result) {
+                if (!data.Events) return [];
+                return data.Events
+                    .filter(event => 
+                        event.Type === 'CUT' && 
+                        event.CarId === result.CarId)
+                    .map(event => ({
+                        timestamp: event.Timestamp,
+                        position: event.WorldPosition
+                    }));
+            }
+
+            [...sortedResults, ...partialResults, ...dnfResults, ...disqualifiedResults].forEach((result, index) => {
+                const position = result.Disqualified ? 'DSQ' : 
+                                (result.TotalTime === 0 || result.NumLaps === 0) ? 'DNF' :
+                                (result.NumLaps < totalRaceLaps) ? `+${totalRaceLaps - result.NumLaps} vueltas` :
+                                (index + 1);
+                
+                const car = data.Cars.find(car => car.CarId === result.CarId);
+                
+                const row = document.createElement('tr');
+                if (!result.Disqualified && result.NumLaps === totalRaceLaps && position <= 3) {
+                    row.className = `position-${position}`;
+                }
+                
+                // Crear array de vueltas simulado (esto deberías adaptarlo según tu estructura JSON)
+                const lapTimes = Array.from({ length: result.NumLaps }, (_, i) => ({
+                    time: result.BestLap * (1 + Math.random() * 0.1), // Simulación de tiempos
+                    lapNumber: i + 1
+                }));
+
+                const bestLapClass = result.BestLap === overallBestLap ? 'best-lap' : '';
+                
+                const collisions = getCollisions(result);
+                const cuts = getCuts(result);
+
+                row.innerHTML = `
+                    <td>${position}</td>
+                    <td>${result.DriverName || 'Desconocido'}</td>
+                    <td>${result.CarModel || 'N/A'}</td>
+                    <td class="${bestLapClass}">${formatTime(result.BestLap)}</td>
+                    <td>
+                        ${result.NumLaps || 0}
+                        <button class="show-laps-btn" onclick="toggleLapTimes('${result.CarId}')">
+                            Ver vueltas
+                        </button>
+                        <div id="lapTimes-${result.CarId}" class="lap-times" style="display: none;">
+                            <div class="lap-grid">
+                                ${lapTimes.map(lap => `
+                                    <div class="lap-time ${lap.time === result.BestLap ? 'best-lap' : ''}">
+                                        V${lap.lapNumber}: ${formatTime(lap.time)}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </td>
+                    <td>${formatTime(result.TotalTime)}</td>
+                    <td>${car?.Driver?.Team || 'N/A'}</td>
+                    <td>
+                        ${cuts.length > 0 ? 
+                            `<span class="warning-text">
+                                ${cuts.length} cortes
+                                <div class="cut-details">
+                                    ${cuts.map((cut, index) => `
+                                        <div class="cut-item">
+                                            Corte ${index + 1} - Tiempo: ${formatTimestamp(cut.timestamp)}
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </span>` : 
+                            '✓'}
+                    </td>
+                    <td>
+                        ${collisions.length > 0 ? 
+                            `<span class="warning-text">
+                                ${collisions.length} colisiones
+                                <button class="show-collisions-btn" onclick="toggleCollisions('${result.CarId}')">
+                                    Ver colisiones
+                                </button>
+                                <div id="collisions-${result.CarId}" class="collisions-container" style="display: none;">
+                                    <div class="collision-details">
+                                        ${collisions.map((c, index) => `
+                                            <div class="collision-item">
+                                                <strong>Colisión ${index + 1}</strong><br>
+                                                Con: ${c.otherDriver}<br>
+                                                Velocidad: ${c.speed.toFixed(1)} km/h<br>
+                                                Tiempo: ${formatTimestamp(c.timestamp)}<br>
+                                                Posición: X:${c.position.X.toFixed(2)}, 
+                                                         Y:${c.position.Y.toFixed(2)}, 
+                                                         Z:${c.position.Z.toFixed(2)}
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            </span>` : 
+                            '✓'}
+                    </td>
+                `;
+                
+                if (result.HasPenalty) {
+                    row.style.color = 'red';
+                }
+                if (result.Disqualified) {
+                    row.style.textDecoration = 'line-through';
+                }
+                
+                tableBody.appendChild(row);
+            });
+        }
+
+        function updateParticipationTable() {
+            const participationTableBody = document.getElementById('participationTableBody');
+            participationTableBody.innerHTML = '';
+
+            // Obtener todos los pilotos únicos del JSON
+            const allDrivers = new Map();
+
+            // Añadir pilotos de Cars
+            data.Cars.forEach(car => {
+                if (car.Driver && car.Driver.Guid) {
+                    allDrivers.set(car.Driver.Guid, {
+                        name: car.Driver.Name,
+                        team: car.Driver.Team,
+                        guid: car.Driver.Guid,
+                        participated: false
+                    });
+                }
+            });
+
+            // Marcar los pilotos que participaron en la carrera
+            data.Result.forEach(result => {
+                if (allDrivers.has(result.DriverGuid)) {
+                    allDrivers.get(result.DriverGuid).participated = true;
+                } else {
+                    // Si el piloto está en Result pero no en Cars
+                    allDrivers.set(result.DriverGuid, {
+                        name: result.DriverName,
+                        team: 'N/A',
+                        guid: result.DriverGuid,
+                        participated: true
+                    });
+                }
+            });
+
+            // Crear filas de la tabla
+            allDrivers.forEach(driver => {
+                const row = document.createElement('tr');
+                row.className = driver.participated ? 'participated' : 'not-participated';
+                
+                row.innerHTML = `
+                    <td>${driver.name || 'Desconocido'}</td>
+                    <td>${driver.team || 'N/A'}</td>
+                    <td>
+                        <span class="status-icon ${driver.participated ? 'status-yes' : 'status-no'}">
+                            ${driver.participated ? '✓' : '✗'}
+                        </span>
+                    </td>
+                `;
+                
+                participationTableBody.appendChild(row);
+            });
+        }
+
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            
+            reader.onload = function(event) {
+                try {
+                    const jsonData = JSON.parse(event.target.result);
+                    validateJsonStructure(jsonData);
+                    data = jsonData;
+                    // Guardar datos en localStorage
+                    localStorage.setItem('raceData', JSON.stringify(data));
+                    updateRaceInfo(data);
+                    updateTable();
+                    updateParticipationTable();
+                    checkAdminStatus(); // Actualizar visibilidad de controles
+                } catch (error) {
+                    console.error('Error al procesar el archivo:', error);
+                    alert(`Error al procesar el archivo JSON: ${error.message}`);
+                    document.getElementById('raceInfo').innerHTML = '';
+                    document.getElementById('tableBody').innerHTML = 
+                        '<tr><td colspan="7">Error al cargar los datos</td></tr>';
+                    document.getElementById('participationTableBody').innerHTML = '';
+                }
+            };
+            
+            reader.onerror = function() {
+                alert('Error al leer el archivo');
+            };
+            
+            reader.readAsText(file);
+        });
+
+        // Función auxiliar para formatear el timestamp
+        function formatTimestamp(timestamp) {
+            const date = new Date(timestamp * 1000);
+            return `${date.getMinutes()}:${date.getSeconds().toString().padStart(2, '0')}`;
+        }
+    </script>
+</body>
+</html>
