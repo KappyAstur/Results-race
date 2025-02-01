@@ -454,9 +454,15 @@
         function updateRaceInfo(data) {
             const raceInfo = document.getElementById('raceInfo');
             
-            // Obtener los tres primeros clasificados
+            // Encontrar el número total de vueltas de la carrera
+            const totalRaceLaps = Math.max(...data.Result.map(result => result.NumLaps));
+            
+            // Obtener los tres primeros clasificados (solo pilotos que completaron la carrera)
             const podium = data.Result
-                .filter(result => !result.Disqualified && result.TotalTime > 0)
+                .filter(result => 
+                    !result.Disqualified && 
+                    result.TotalTime > 0 && 
+                    result.NumLaps === totalRaceLaps) // Solo pilotos que completaron todas las vueltas
                 .sort((a, b) => a.TotalTime - b.TotalTime)
                 .slice(0, 3);
 
