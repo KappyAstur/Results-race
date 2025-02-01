@@ -354,7 +354,7 @@
 
         async function loadInitialData() {
             try {
-                const response = await fetch('./race.json');
+                const response = await fetch('race.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
@@ -747,6 +747,15 @@
         function formatTimestamp(timestamp) {
             const date = new Date(timestamp * 1000);
             return `${date.getMinutes()}:${date.getSeconds().toString().padStart(2, '0')}`;
+        }
+
+        function toggleCollisions(carId) {
+            const collisionsDiv = document.getElementById(`collisions-${carId}`);
+            if (collisionsDiv.style.display === 'none') {
+                collisionsDiv.style.display = 'block';
+            } else {
+                collisionsDiv.style.display = 'none';
+            }
         }
     </script>
 </body>
