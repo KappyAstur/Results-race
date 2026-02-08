@@ -1885,10 +1885,16 @@
 
         function loadRace(raceNumber) {
             currentRaceNumber = raceNumber;
+            currentSession = 'Race'; // Resetear a Race por defecto
             // Mostrar botones de sesión
             document.getElementById('sessionButtons').style.display = 'block';
-            // Cargar la sesión actual (por defecto Race)
-            loadSession(currentSession);
+            // Resetear botones activos
+            document.querySelectorAll('.session-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector('.session-btn.race').classList.add('active');
+            // Cargar la carrera por defecto
+            loadSession('Race');
         }
         
         function loadSession(sessionType) {
@@ -1896,6 +1902,7 @@
             
             currentSession = sessionType;
             const racePath = `SuperGT/Ronda ${currentRaceNumber} - ${sessionType}.json`;
+            console.log('Cargando:', racePath);
             
             // Actualizar botones activos
             document.querySelectorAll('.session-btn').forEach(btn => {
