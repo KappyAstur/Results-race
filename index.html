@@ -4,45 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados Assetto Corsa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Rajdhani', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: #fff;
+            overflow-x: hidden;
+            position: relative;
         }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255,255,255,.03) 2px, rgba(255,255,255,.03) 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(255,255,255,.03) 2px, rgba(255,255,255,.03) 4px);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .racing-lines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+            opacity: 0.1;
+        }
+
+        .racing-line {
+            position: absolute;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ff0000, transparent);
+            animation: raceLine 3s linear infinite;
+        }
+
+        @keyframes raceLine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(200vw); }
+        }
+
         h1, h2 {
-            color: #333;
+            font-family: 'Orbitron', sans-serif;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 20px rgba(255,0,0,0.5), 0 0 40px rgba(255,0,0,0.3);
         }
-        .section {
-            margin-bottom: 30px;
+
+        h1 {
+            font-size: 3.5em;
+            font-weight: 900;
+            text-align: center;
+            margin: 30px 0;
+            animation: glow 2s ease-in-out infinite alternate;
         }
-        .car, .event, .lap {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px rgba(255,0,0,0.5), 0 0 40px rgba(255,0,0,0.3); }
+            to { text-shadow: 0 0 30px rgba(255,0,0,0.8), 0 0 60px rgba(255,0,0,0.5), 0 0 80px rgba(255,0,0,0.3); }
         }
-        .car h3, .event h3, .lap h3 {
-            margin-top: 0;
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
         }
-        .details {
-            margin-left: 20px;
-        }
-        
-        /* Nuevos estilos para la tabla */
+
+        /* Tabla profesional */
         table {
             width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-bottom: 30px;
+            background: rgba(20, 20, 40, 0.95);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.5), 0 0 30px rgba(255,0,0,0.2);
+            backdrop-filter: blur(10px);
+            animation: slideUp 0.6s ease-out;
         }
-        
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
         th {
-            background-color: #f2f2f2;
+            background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1em;
+            padding: 18px 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 3px solid #ff3333;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            font-size: 1.05em;
+            transition: all 0.3s ease;
+        }
+
+        tr {
+            transition: all 0.3s ease;
+        }
+
+        tr:hover {
+            background: rgba(255,0,0,0.1);
+            transform: scale(1.01);
+            box-shadow: 0 5px 20px rgba(255,0,0,0.3);
         }
         
         .file-input-container {
@@ -62,93 +155,188 @@
             display: none;
         }
         
-        /* Estilos adicionales para información de carrera */
+        /* Info de carrera mejorada */
         .race-info {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 5px;
+            background: linear-gradient(135deg, rgba(20,20,40,0.95) 0%, rgba(40,40,60,0.95) 100%);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            border: 2px solid rgba(255,0,0,0.3);
+            box-shadow: 0 10px 50px rgba(0,0,0,0.5), inset 0 0 30px rgba(255,0,0,0.1);
+            backdrop-filter: blur(10px);
+            animation: slideUp 0.6s ease-out;
+        }
+
+        .race-info h2 {
+            font-size: 2.5em;
             margin-bottom: 20px;
+            text-align: center;
+            background: linear-gradient(90deg, #ff0000, #ff6666, #ff0000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .track-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .track-info p {
+            background: rgba(255,0,0,0.2);
+            padding: 12px 25px;
+            border-radius: 25px;
+            border: 2px solid rgba(255,0,0,0.4);
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #333;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .track-info p:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255,0,0,0.4);
         }
         
         .position-1 {
-            background-color: #ffd700;
+            background: linear-gradient(90deg, rgba(255,215,0,0.3) 0%, rgba(255,215,0,0.1) 100%) !important;
+            border-left: 5px solid #FFD700;
+            font-weight: 700;
+            animation: goldShine 2s ease-in-out infinite;
+        }
+
+        @keyframes goldShine {
+            0%, 100% { box-shadow: 0 0 20px rgba(255,215,0,0.3); }
+            50% { box-shadow: 0 0 40px rgba(255,215,0,0.6); }
         }
         
         .position-2 {
-            background-color: #c0c0c0;
+            background: linear-gradient(90deg, rgba(192,192,192,0.3) 0%, rgba(192,192,192,0.1) 100%) !important;
+            border-left: 5px solid #C0C0C0;
+            font-weight: 700;
         }
         
         .position-3 {
-            background-color: #cd7f32;
+            background: linear-gradient(90deg, rgba(205,127,50,0.3) 0%, rgba(205,127,50,0.1) 100%) !important;
+            border-left: 5px solid #CD7F32;
+            font-weight: 700;
         }
         
         .best-lap {
-            background-color: #9fff9c;
+            background: linear-gradient(90deg, rgba(159,255,156,0.3) 0%, rgba(159,255,156,0.1) 100%) !important;
+            color: #00ff00 !important;
             font-weight: bold;
+            text-shadow: 0 0 10px rgba(0,255,0,0.5);
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
         }
         
-        .lap-times {
-            display: none;
-            margin-top: 10px;
-            padding: 10px;
-            background-color: #f8f9fa;
-            border-radius: 5px;
+        /* Botones de mostrar vueltas y colisiones */
+        .show-laps-btn, .show-collisions-btn {
+            background: linear-gradient(135deg, rgba(0,123,255,0.8) 0%, rgba(0,86,179,0.8) 100%);
+            color: white;
+            border: 2px solid #007bff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0,123,255,0.3);
         }
-        
+
+        .show-collisions-btn {
+            background: linear-gradient(135deg, rgba(220,53,69,0.8) 0%, rgba(200,35,51,0.8) 100%);
+            border-color: #dc3545;
+            margin-left: 8px;
+            box-shadow: 0 3px 10px rgba(220,53,69,0.3);
+        }
+
+        .show-laps-btn:hover, .show-collisions-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,123,255,0.5);
+        }
+
+        .show-collisions-btn:hover {
+            box-shadow: 0 5px 20px rgba(220,53,69,0.5);
+        }
+
+        /* Contenedores de vueltas y colisiones */
+        .lap-times, .collisions-container {
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
         .lap-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            gap: 5px;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 8px;
         }
-        
+
         .lap-time {
-            padding: 3px;
-            border: 1px solid #ddd;
-            border-radius: 3px;
+            padding: 8px;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
             text-align: center;
-            font-size: 0.9em;
+            font-size: 0.95em;
+            background: rgba(255,255,255,0.05);
+            transition: all 0.3s ease;
         }
-        
-        .show-laps-btn {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 0.8em;
+
+        .lap-time:hover {
+            background: rgba(255,0,0,0.2);
+            transform: scale(1.05);
+            border-color: rgba(255,0,0,0.5);
         }
-        
-        .show-laps-btn:hover {
-            background-color: #0056b3;
-        }
-        
-        /* Nuevos estilos para la tabla de participación */
+
+        /* Tabla de participación */
         .participation-table {
-            margin-top: 30px;
-            margin-bottom: 30px;
+            margin-top: 40px;
         }
-        
+
         .participated {
-            background-color: #e8f5e9;
+            background: linear-gradient(90deg, rgba(0,255,0,0.2) 0%, rgba(0,255,0,0.05) 100%);
+            border-left: 3px solid #00ff00;
         }
-        
+
         .not-participated {
-            background-color: #ffebee;
+            background: linear-gradient(90deg, rgba(255,0,0,0.2) 0%, rgba(255,0,0,0.05) 100%);
+            border-left: 3px solid #ff0000;
+            opacity: 0.6;
         }
-        
+
         .status-icon {
             font-weight: bold;
-            padding: 2px 6px;
-            border-radius: 3px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 1.1em;
         }
-        
+
         .status-yes {
-            color: #2e7d32;
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0,255,0,0.5);
         }
-        
+
         .status-no {
-            color: #c62828;
+            color: #ff0000;
+            text-shadow: 0 0 10px rgba(255,0,0,0.5);
         }
         
         .admin-controls {
@@ -248,133 +436,1034 @@
             background-color: #c82333;
         }
 
+        /* Podio mejorado */
         .podium-container {
-            margin: 20px 0;
+            margin: 40px 0;
             text-align: center;
+            perspective: 1000px;
         }
 
         .podium-image {
             position: relative;
             display: inline-block;
-            max-width: 500px;
+            max-width: 400px;
             width: 100%;
+            transform-style: preserve-3d;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotateY(0deg); }
+            50% { transform: translateY(-10px) rotateY(5deg); }
         }
 
         .podium-bg {
             width: 100%;
             height: auto;
+            filter: drop-shadow(0 10px 30px rgba(255,0,0,0.5));
         }
 
         .podium-names {
             position: absolute;
-            bottom: 0;
+            bottom: -30px;
             left: 0;
             right: 0;
             display: flex;
             justify-content: space-around;
             padding: 10px;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-            font-weight: bold;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .podium-p1, .podium-p2, .podium-p3 {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.8);
+            font-weight: 900;
+            padding: 8px 12px;
+            background: rgba(0,0,0,0.5);
+            border-radius: 6px;
+            animation: textGlow 2s ease-in-out infinite;
+            width: 28%;
+            min-height: 45px;
+            line-height: 1.2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        @keyframes textGlow {
+            0%, 100% { 
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.8);
+                background: rgba(0,0,0,0.5);
+            }
+            50% { 
+                text-shadow: 2px 2px 6px rgba(0,0,0,1), 0 0 15px rgba(0,0,0,0.9);
+                background: rgba(0,0,0,0.6);
+            }
         }
 
         .podium-p1 {
             order: 2;
-            font-size: 1.4em;
-            margin-bottom: 15px;
+            font-size: 0.95em;
+            color: #FFD700;
+            border: 2px solid #FFD700;
         }
 
         .podium-p2 {
             order: 1;
-            font-size: 1.2em;
-            margin-bottom: 10px;
+            font-size: 0.8em;
+            color: #E8E8E8;
+            border: 2px solid #C0C0C0;
         }
 
         .podium-p3 {
             order: 3;
+            font-size: 0.75em;
+            color: #FF8C42;
+            border: 2px solid #CD7F32;
+        }
+
+        /* Botones de carreras mejorados */
+        .race-buttons {
+            margin: 40px 0;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .race-btn {
+            background: linear-gradient(135deg, rgba(255,0,0,0.8) 0%, rgba(200,0,0,0.8) 100%);
+            color: white;
+            padding: 15px 30px;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: 700;
+            font-family: 'Orbitron', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(255,0,0,0.3);
+        }
+
+        .race-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .race-btn:hover::before {
+            left: 100%;
+        }
+
+        .race-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 10px 40px rgba(255,0,0,0.6);
+            border-color: #ff3333;
+        }
+
+        .race-btn.active {
+            background: linear-gradient(135deg, #00ff00 0%, #00cc00 100%);
+            border-color: #00ff00;
+            box-shadow: 0 10px 40px rgba(0,255,0,0.6);
+            animation: activeBtn 1s ease-in-out infinite;
+        }
+
+        @keyframes activeBtn {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Agregar un fondo semitransparente para mejorar la legibilidad */
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .track-info {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .track-info p {
+            margin: 0;
+            padding: 5px 10px;
+            background-color: white;
+            border-radius: 3px;
+            color: #333;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        /* Controles del gráfico mejorados */
+        .chart-container {
+            position: relative;
+            height: 500px;
+            width: 100%;
+            margin: 30px 0;
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 50px rgba(0,0,0,0.5), 0 0 30px rgba(255,0,0,0.2);
+            border: 2px solid rgba(255,0,0,0.3);
+            backdrop-filter: blur(10px);
+            animation: slideUp 0.8s ease-out;
+        }
+
+        .chart-controls {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(20,20,40,0.95) 0%, rgba(40,40,60,0.95) 100%);
+            border-radius: 15px;
+            border: 2px solid rgba(255,0,0,0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            backdrop-filter: blur(10px);
+        }
+
+        .control-btn {
+            padding: 15px 30px;
+            margin: 0 10px;
+            border: 2px solid #ff0000;
+            border-radius: 10px;
+            cursor: pointer;
+            background: linear-gradient(135deg, rgba(255,0,0,0.8) 0%, rgba(200,0,0,0.8) 100%);
+            color: white;
+            font-size: 1.5em;
+            font-family: 'Orbitron', sans-serif;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(255,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .control-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .control-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .control-btn:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 10px 40px rgba(255,0,0,0.6);
+        }
+
+        .control-btn:active {
+            transform: translateY(0) scale(0.98);
+        }
+
+        #lapCounter {
+            margin-left: 30px;
+            font-size: 1.5em;
+            font-weight: 900;
+            font-family: 'Orbitron', sans-serif;
+            color: #ff0000;
+            text-shadow: 0 0 20px rgba(255,0,0,0.8);
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(255,0,0,0.1);
+            border-radius: 10px;
+            border: 2px solid rgba(255,0,0,0.3);
+        }
+
+        /* Botones de mostrar vueltas y colisiones */
+        .show-laps-btn, .show-collisions-btn {
+            background: linear-gradient(135deg, rgba(0,123,255,0.8) 0%, rgba(0,86,179,0.8) 100%);
+            color: white;
+            border: 2px solid #007bff;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0,123,255,0.3);
+        }
+
+        .show-collisions-btn {
+            background: linear-gradient(135deg, rgba(220,53,69,0.8) 0%, rgba(200,35,51,0.8) 100%);
+            border-color: #dc3545;
+            margin-left: 8px;
+            box-shadow: 0 3px 10px rgba(220,53,69,0.3);
+        }
+
+        .show-laps-btn:hover, .show-collisions-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,123,255,0.5);
+        }
+
+        .show-collisions-btn:hover {
+            box-shadow: 0 5px 20px rgba(220,53,69,0.5);
+        }
+
+        /* Contenedores de vueltas y colisiones */
+        .lap-times, .collisions-container {
+            display: none;
+            margin-top: 15px;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .lap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 8px;
+        }
+
+        .lap-time {
+            padding: 8px;
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            text-align: center;
+            font-size: 0.95em;
+            background: rgba(255,255,255,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .lap-time:hover {
+            background: rgba(255,0,0,0.2);
+            transform: scale(1.05);
+            border-color: rgba(255,0,0,0.5);
+        }
+
+        /* Tabla de participación */
+        .participation-table {
+            margin-top: 40px;
+        }
+
+        .participated {
+            background: linear-gradient(90deg, rgba(0,255,0,0.2) 0%, rgba(0,255,0,0.05) 100%);
+            border-left: 3px solid #00ff00;
+        }
+
+        .not-participated {
+            background: linear-gradient(90deg, rgba(255,0,0,0.2) 0%, rgba(255,0,0,0.05) 100%);
+            border-left: 3px solid #ff0000;
+            opacity: 0.6;
+        }
+
+        .status-icon {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
             font-size: 1.1em;
-            margin-bottom:0px;
+        }
+
+        .status-yes {
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0,255,0,0.5);
+        }
+
+        .status-no {
+            color: #ff0000;
+            text-shadow: 0 0 10px rgba(255,0,0,0.5);
+        }
+
+        /* Controles de administrador */
+        .admin-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: none;
+            z-index: 1000;
+        }
+
+        .file-input-container {
+            display: inline-block;
+        }
+
+        .file-input-container label {
+            background: linear-gradient(135deg, rgba(76,175,80,0.9) 0%, rgba(56,142,60,0.9) 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600;
+            border: 2px solid #4CAF50;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(76,175,80,0.3);
+        }
+
+        .file-input-container label:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(76,175,80,0.5);
+        }
+
+        #fileInput {
+            display: none;
+        }
+        
+        .logout-btn {
+            background: linear-gradient(135deg, rgba(220,53,69,0.9) 0%, rgba(200,35,51,0.9) 100%);
+            color: white;
+            border: 2px solid #dc3545;
+            padding: 12px 24px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-left: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(220,53,69,0.3);
+        }
+
+        .logout-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(220,53,69,0.5);
+        }
+
+        /* Colisiones */
+        .collisions {
+            font-size: 0.95em;
+            color: #ff6b6b;
+        }
+
+        .collision-item {
+            margin: 5px 0;
+            padding: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,0,0,0.1);
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .collision-item:hover {
+            background: rgba(255,0,0,0.2);
+            transform: translateX(5px);
+        }
+
+        .collision-item:last-child {
+            border-bottom: none;
+        }
+
+        .collision-details {
+            display: grid;
+            gap: 10px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2em; }
+            .race-btn { padding: 10px 20px; font-size: 1em; }
+            .chart-container { height: 300px; }
+            .control-btn { padding: 10px 20px; font-size: 1.2em; }
+            .track-info { flex-direction: column; }
         }
     </style>
 </head>
 <body>
-    <h1>Resultados de Carrera</h1>
-    
-    <!-- Información de la carrera -->
-    <div class="race-info" id="raceInfo">
+    <!-- Efectos de fondo animados -->
+    <div class="racing-lines">
+        <div class="racing-line" style="top: 10%; animation-delay: 0s;"></div>
+        <div class="racing-line" style="top: 30%; animation-delay: 0.5s;"></div>
+        <div class="racing-line" style="top: 50%; animation-delay: 1s;"></div>
+        <div class="racing-line" style="top: 70%; animation-delay: 1.5s;"></div>
+        <div class="racing-line" style="top: 90%; animation-delay: 2s;"></div>
     </div>
 
-    <!-- Añadir después del <h1> -->
-    <div class="admin-controls" id="adminControls">
-        <div class="file-input-container">
-            <label for="fileInput">Abrir archivo JSON
-                <input type="file" id="fileInput" accept=".json">
-            </label>
+    <div class="container">
+        <h1>🏁 ASSETTO CORSA RACING 🏁</h1>
+        
+        <div class="race-buttons">
+            <button class="race-btn" onclick="loadRace(1)">Ronda 1</button>
+            <button class="race-btn" onclick="loadRace(2)">Ronda 2</button>
+            <button class="race-btn" onclick="loadRace(3)">Ronda 3</button>
+            <button class="race-btn" onclick="loadRace(4)">Ronda 4</button>
+            <button class="race-btn" onclick="loadRace(5)">Ronda 5</button>
+            <button class="race-btn" onclick="loadRace(6)">Ronda 6</button>
+            <button class="race-btn" onclick="loadRace(7)">Ronda 7</button>
+            <button class="race-btn" onclick="loadRace(8)">Ronda 8</button>
         </div>
-        <button class="logout-btn" onclick="logout()">Cerrar Sesión</button>
+
+        <h1>Resultados de Carrera</h1>
+        
+        <!-- Información de la carrera -->
+        <div class="race-info" id="raceInfo">
+        </div>
+
+        <!-- Añadir después del <h1> -->
+        <div class="admin-controls" id="adminControls">
+            <div class="file-input-container">
+                <label for="fileInput">Abrir archivo JSON
+                    <input type="file" id="fileInput" accept=".json">
+                </label>
+            </div>
+            <button class="logout-btn" onclick="logout()">Cerrar Sesión</button>
+        </div>
+
+        <!-- Tabla modificada -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Posición</th>
+                    <th>Piloto</th>
+                    <th>Coche</th>
+                    <th>Mejor Vuelta</th>
+                    <th>Vueltas</th>
+                    <th>Tiempo Total</th>
+                    <th>Equipo</th>
+                    <th>Cortes</th>
+                    <th>Colisiones</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+
+        <!-- Nueva tabla de participación -->
+        <h2>Participación de Pilotos</h2>
+        <table id="participationTable" class="participation-table">
+            <thead>
+                <tr>
+                    <th>Piloto</th>
+                    <th>Equipo</th>
+                    <th>Participó</th>
+                </tr>
+            </thead>
+            <tbody id="participationTableBody">
+            </tbody>
+        </table>
+
+        <div id="content"></div>
     </div>
-
-    <!-- Tabla modificada -->
-    <table id="dataTable">
-        <thead>
-            <tr>
-                <th>Posición</th>
-                <th>Piloto</th>
-                <th>Coche</th>
-                <th>Mejor Vuelta</th>
-                <th>Vueltas</th>
-                <th>Tiempo Total</th>
-                <th>Equipo</th>
-                <th>Cortes</th>
-                <th>Colisiones</th>
-            </tr>
-        </thead>
-        <tbody id="tableBody">
-        </tbody>
-    </table>
-
-    <!-- Nueva tabla de participación -->
-    <h2>Participación de Pilotos</h2>
-    <table id="participationTable" class="participation-table">
-        <thead>
-            <tr>
-                <th>Piloto</th>
-                <th>Equipo</th>
-                <th>Participó</th>
-            </tr>
-        </thead>
-        <tbody id="participationTableBody">
-        </tbody>
-    </table>
-
-    <div id="content"></div>
 
     <script>
         let data = {};
+        let chart = null;
+        let currentLap = 1;
+        let animationInterval = null;
 
-        async function loadInitialData() {
-            try {
-                const response = await fetch('./race.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                data = await response.json();
-                validateJsonStructure(data);
-                
-                // Actualizar la interfaz
-                updateRaceInfo(data);
-                updateTable();
-                updateParticipationTable();
-                
-                console.log('Datos cargados:', data); // Debug
-                
-            } catch (error) {
-                console.error('Error al cargar race.json:', error);
-                document.getElementById('raceInfo').innerHTML = '';
-                document.getElementById('tableBody').innerHTML = 
-                    '<tr><td colspan="9">Error al cargar los datos. Por favor, inicia sesión como administrador para cargar el archivo.</tr>';
-                document.getElementById('participationTableBody').innerHTML = '';
+        // Estilos CSS
+        const styles = `
+            .chart-container {
+                position: relative;
+                height: 400px;
+                width: 100%;
+                margin: 20px 0;
+                background: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             }
+        `;
+
+        // Añadir estilos al head
+        const styleSheet = document.createElement("style");
+        styleSheet.innerText = styles;
+        document.head.appendChild(styleSheet);
+
+        // Función auxiliar para formatear el tiempo en formato carrera (mm:ss.xxx)
+        function formatRaceTime(seconds) {
+            if (!seconds || isNaN(seconds)) return 'N/A';
+            
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${minutes}:${remainingSeconds.toFixed(3).padStart(6, '0')}`;
+        }
+
+        function createPositionsChart(data, upToLap) {
+            const canvas = document.getElementById('positionsChart');
+            if (!canvas) {
+                console.warn('Canvas positionsChart no encontrado, esperando...');
+                return;
+            }
+            const ctx = canvas.getContext('2d');
+            
+            // Destruir el chart existente si cambiamos de carrera
+            if (chart && data !== chart.data.originalData) {
+                chart.destroy();
+                chart = null;
+            }
+            
+            // Obtener pilotos y sus tiempos por vuelta
+            const drivers = data.Laps.reduce((acc, lap) => {
+                if (!acc[lap.DriverName]) {
+                    acc[lap.DriverName] = {
+                        name: lap.DriverName,
+                        laps: [],
+                        bestLap: {
+                            time: Infinity,
+                            lapNumber: null,
+                            lapTime: null // Guardamos el tiempo específico de la vuelta
+                        }
+                    };
+                }
+                // Guardar el tiempo de vuelta y actualizar mejor vuelta si corresponde
+                const lapTime = lap.LapTime / 1000;
+                acc[lap.DriverName].laps.push(lapTime);
+                if (lapTime < acc[lap.DriverName].bestLap.time) {
+                    acc[lap.DriverName].bestLap = {
+                        time: lapTime,
+                        lapNumber: acc[lap.DriverName].laps.length,
+                        lapTime: lapTime // Tiempo específico de la vuelta
+                    };
+                }
+                return acc;
+            }, {});
+
+            const driversArray = Object.values(drivers);
+            const totalLaps = Math.max(...driversArray.map(d => d.laps.length));
+
+            // Encontrar la mejor vuelta de la carrera
+            const overallBestLap = {
+                time: Math.min(...driversArray.map(d => d.bestLap.time)),
+                driver: driversArray.find(d => d.bestLap.time === Math.min(...driversArray.map(d => d.bestLap.time)))
+            };
+
+            // Calcular todas las posiciones por adelantado
+            const allPositions = calculateAllPositions(driversArray, totalLaps);
+
+            // Crear datasets mostrando solo las vueltas completadas hasta upToLap
+            const datasets = driversArray.map((driver, index) => {
+                // Solo incluir datos hasta upToLap, sin nulls al final
+                const driverData = [];
+                for (let i = 0; i < upToLap; i++) {
+                    const position = allPositions[i]?.find(p => p.name === driver.name)?.position;
+                    driverData.push(position !== undefined ? position : null);
+                }
+                
+                return {
+                    label: driver.name,
+                    data: driverData,
+                    borderColor: `hsl(${(index * 360) / driversArray.length}, 70%, 50%)`,
+                    borderWidth: 3,
+                    fill: false,
+                    tension: 0.1,
+                    spanGaps: false,
+                    // Añadir puntos para las mejores vueltas
+                    pointRadius: driverData.map((_, i) => {
+                        if (i >= upToLap) return 0;
+                        if (i + 1 === driver.bestLap.lapNumber && i < upToLap) return 6;
+                        if (driver.name === overallBestLap.driver.name && 
+                            i + 1 === overallBestLap.driver.bestLap.lapNumber && i < upToLap) return 8;
+                        return 3;
+                    }),
+                    pointBackgroundColor: driverData.map((_, i) => {
+                        if (i >= upToLap) return 'transparent';
+                        if (driver.name === overallBestLap.driver.name && 
+                            i + 1 === overallBestLap.driver.bestLap.lapNumber && i < upToLap) return 'purple';
+                        if (i + 1 === driver.bestLap.lapNumber && i < upToLap) return 'yellow';
+                        return `hsl(${(index * 360) / driversArray.length}, 70%, 50%)`;
+                    }),
+                    pointBorderColor: driverData.map((_, i) => {
+                        if (i >= upToLap) return 'transparent';
+                        if (driver.name === overallBestLap.driver.name && 
+                            i + 1 === overallBestLap.driver.bestLap.lapNumber && i < upToLap) return 'purple';
+                        if (i + 1 === driver.bestLap.lapNumber && i < upToLap) return 'black';
+                        return '#fff';
+                    }),
+                    pointBorderWidth: 2
+                };
+            });
+
+            // Si el chart ya existe, añadir la nueva vuelta a los datos existentes
+            if (chart) {
+                datasets.forEach((dataset, i) => {
+                    // Añadir solo el nuevo punto de datos (la última vuelta)
+                    if (upToLap > chart.data.datasets[i].data.length) {
+                        const newPosition = dataset.data[upToLap - 1];
+                        chart.data.datasets[i].data.push(newPosition);
+                        
+                        // Asegurar que los arrays existen antes de hacer push
+                        if (!Array.isArray(chart.data.datasets[i].pointRadius)) {
+                            chart.data.datasets[i].pointRadius = [];
+                        }
+                        if (!Array.isArray(chart.data.datasets[i].pointBackgroundColor)) {
+                            chart.data.datasets[i].pointBackgroundColor = [];
+                        }
+                        if (!Array.isArray(chart.data.datasets[i].pointBorderColor)) {
+                            chart.data.datasets[i].pointBorderColor = [];
+                        }
+                        
+                        // Actualizar puntos
+                        chart.data.datasets[i].pointRadius.push(dataset.pointRadius[upToLap - 1]);
+                        chart.data.datasets[i].pointBackgroundColor.push(dataset.pointBackgroundColor[upToLap - 1]);
+                        chart.data.datasets[i].pointBorderColor.push(dataset.pointBorderColor[upToLap - 1]);
+                    }
+                });
+                
+                // Actualizar las etiquetas del eje X si es necesario
+                if (upToLap > chart.data.labels.length) {
+                    chart.data.labels.push(`Vuelta ${upToLap}`);
+                }
+                
+                chart.update('active');
+                return chart;
+            }
+
+            // Crear nuevo chart
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: Array.from({length: upToLap}, (_, i) => `Vuelta ${i + 1}`),
+                    datasets: datasets,
+                    originalData: data
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            reverse: true,
+                            min: 1,
+                            max: driversArray.length,
+                            ticks: {
+                                stepSize: 1,
+                                color: '#333',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold',
+                                    family: "'Rajdhani', sans-serif"
+                                }
+                            },
+                            title: {
+                                display: true,
+                                text: 'POSICIÓN',
+                                color: '#ff0000',
+                                font: {
+                                    size: 16,
+                                    weight: 'bold',
+                                    family: "'Orbitron', sans-serif"
+                                }
+                            },
+                            grid: {
+                                display: true,
+                                drawBorder: true,
+                                color: 'rgba(0,0,0,0.1)',
+                                lineWidth: 1
+                            }
+                        },
+                        x: {
+                            min: 0,
+                            max: totalLaps + 1,
+                            ticks: {
+                                color: '#333',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold',
+                                    family: "'Rajdhani', sans-serif"
+                                }
+                            },
+                            title: {
+                                display: true,
+                                text: 'VUELTA',
+                                color: '#ff0000',
+                                font: {
+                                    size: 16,
+                                    weight: 'bold',
+                                    family: "'Orbitron', sans-serif"
+                                }
+                            },
+                            grid: {
+                                display: true,
+                                drawBorder: true,
+                                color: 'rgba(0,0,0,0.1)',
+                                lineWidth: 1
+                            }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: [
+                                '⚡ EVOLUCIÓN DE POSICIONES ⚡',
+                                `🏁 Vuelta más rápida: ${overallBestLap.driver.name} (${formatRaceTime(overallBestLap.time)} - V${overallBestLap.driver.bestLap.lapNumber})`
+                            ],
+                            color: '#000',
+                            font: {
+                                size: 18,
+                                weight: 'bold',
+                                family: "'Orbitron', sans-serif"
+                            },
+                            padding: 20
+                        },
+                        legend: {
+                            position: 'right',
+                            labels: {
+                                boxWidth: 20,
+                                color: '#000',
+                                font: {
+                                    size: 13,
+                                    weight: '600',
+                                    family: "'Rajdhani', sans-serif"
+                                },
+                                padding: 15,
+                                generateLabels: function(chart) {
+                                    const labels = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+                                    labels.forEach(label => {
+                                        const driver = driversArray.find(d => d.name === label.text);
+                                        if (driver) {
+                                            label.text += ` (${formatRaceTime(driver.bestLap.time)})`;
+                                        }
+                                    });
+                                    return labels;
+                                }
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(0,0,0,0.9)',
+                            titleColor: '#ff0000',
+                            bodyColor: '#fff',
+                            borderColor: '#ff0000',
+                            borderWidth: 2,
+                            padding: 12,
+                            titleFont: {
+                                size: 14,
+                                weight: 'bold',
+                                family: "'Orbitron', sans-serif"
+                            },
+                            bodyFont: {
+                                size: 13,
+                                family: "'Rajdhani', sans-serif"
+                            },
+                            callbacks: {
+                                label: function(context) {
+                                    const pos = allPositions[context.dataIndex]?.find(p => p.name === context.dataset.label);
+                                    if (pos) {
+                                        const driver = drivers[context.dataset.label];
+                                        let label = `${pos.name}: P${pos.position}`;
+                                        
+                                        if (context.dataIndex + 1 === driver?.bestLap.lapNumber) {
+                                            label += ` ⚡ Mejor vuelta: ${formatRaceTime(driver.bestLap.time)}`;
+                                        }
+                                        if (context.dataIndex + 1 === overallBestLap.driver.bestLap.lapNumber && 
+                                            pos.name === overallBestLap.driver.name) {
+                                            label += ` 🏁 VUELTA RÁPIDA`;
+                                        }
+                                        return label;
+                                    }
+                                    return context.dataset.label;
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        duration: 400,
+                        easing: 'easeInOutCubic'
+                    },
+                    transitions: {
+                        active: {
+                            animation: {
+                                duration: 300
+                            }
+                        }
+                    }
+                }
+            });
+
+            return chart;
+        }
+
+        // Función auxiliar para calcular todas las posiciones
+        function calculateAllPositions(driversArray, totalLaps) {
+            const positions = [];
+            const accumulatedTimes = new Array(driversArray.length).fill(0);
+
+            for (let lap = 1; lap <= totalLaps; lap++) {
+                driversArray.forEach((driver, index) => {
+                    if (lap <= driver.laps.length) {
+                        accumulatedTimes[index] += driver.laps[lap - 1];
+                    }
+                });
+
+                const lapPositions = driversArray.map((driver, index) => ({
+                    name: driver.name,
+                    timeAccumulated: accumulatedTimes[index],
+                    validTime: lap <= driver.laps.length
+                }))
+                .filter(driver => driver.validTime)
+                .sort((a, b) => a.timeAccumulated - b.timeAccumulated)
+                .map((driver, position) => ({
+                    name: driver.name,
+                    position: position + 1,
+                    time: driver.timeAccumulated
+                }));
+
+                positions.push(lapPositions);
+            }
+
+            return positions;
+        }
+
+        function updateRaceInfo(data) {
+            const raceInfo = document.getElementById('raceInfo');
+            
+            const totalRaceLaps = Math.max(...data.Result.map(result => result.NumLaps));
+            
+            const podium = data.Result
+                .filter(result => 
+                    !result.Disqualified && 
+                    result.TotalTime > 0 && 
+                    (result.NumLaps === totalRaceLaps || result.NumLaps === totalRaceLaps - 1))
+                .sort((a, b) => {
+                    if (a.NumLaps !== b.NumLaps) {
+                        return b.NumLaps - a.NumLaps;
+                    }
+                    return a.TotalTime - b.TotalTime;
+                })
+                .slice(0, 3);
+
+            const trackInfo = `
+                <div class="track-info">
+                    ${data.Grip ? `<p>Grip: ${data.Grip}</p>` : ''}
+                    ${data.Temperature ? `<p>Temperatura: ${data.Temperature}°C</p>` : ''}
+                    ${data.Humidity ? `<p>Humedad: ${data.Humidity}%</p>` : ''}
+                </div>
+            `;
+
+            raceInfo.innerHTML = `
+                <h2>${data.EventName || 'Evento sin nombre'}</h2>
+                ${trackInfo}
+                <div class="podium-container">
+                    <div class="podium-image">
+                        <img src="public/images/podium.png" alt="Podium" class="podium-bg">
+                        <div class="podium-names">
+                            <div class="podium-p2">${podium[1]?.DriverName || '-'}</div>
+                            <div class="podium-p1">${podium[0]?.DriverName || '-'}</div>
+                            <div class="podium-p3">${podium[2]?.DriverName || '-'}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-controls">
+                    <button id="playButton" class="control-btn">
+                        <span class="play-icon">▶</span>
+                    </button>
+                    <button id="resetButton" class="control-btn">⟲</button>
+                    <span id="lapCounter">Vuelta: 1</span>
+                </div>
+                <div class="chart-container">
+                    <canvas id="positionsChart"></canvas>
+                </div>
+            `;
+
+            // Añadir estilos CSS
+            const styles = `
+                .chart-controls {
+                    text-align: center;
+                    margin: 20px 0;
+                    padding: 10px;
+                    background: rgba(255,255,255,0.9);
+                    border-radius: 5px;
+                }
+
+                .control-btn {
+                    padding: 10px 20px;
+                    margin: 0 5px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    background-color: #4CAF50;
+                    color: white;
+                    font-size: 1.2em;
+                    transition: background-color 0.3s;
+                }
+
+                .control-btn:hover {
+                    background-color: #45a049;
+                }
+
+                #lapCounter {
+                    margin-left: 20px;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    color: #333;
+                }
+            `;
+
+            const styleSheet = document.createElement("style");
+            styleSheet.innerText = styles;
+            document.head.appendChild(styleSheet);
+
+            setTimeout(() => {
+                createPositionsChart(data, 1);
+                initializeControls(data);
+            }, 100);
+        }
+
+        function initializeControls(data) {
+            const playButton = document.getElementById('playButton');
+            const resetButton = document.getElementById('resetButton');
+            const lapCounter = document.getElementById('lapCounter');
+            const totalLaps = Math.max(...data.Result.map(r => r.NumLaps));
+            
+            currentLap = 1;
+            const frameDelay = 600; // 600ms por vuelta para que se vea la animación suave
+            
+            playButton.addEventListener('click', function() {
+                if (animationInterval) {
+                    // Pausar
+                    clearInterval(animationInterval);
+                    animationInterval = null;
+                    playButton.querySelector('.play-icon').textContent = '▶';
+                } else {
+                    // Reproducir
+                    playButton.querySelector('.play-icon').textContent = '⏸';
+                    animationInterval = setInterval(() => {
+                        if (currentLap < totalLaps) {
+                            currentLap++;
+                            createPositionsChart(data, currentLap);
+                            lapCounter.textContent = `Vuelta: ${currentLap} / ${totalLaps}`;
+                        } else {
+                            clearInterval(animationInterval);
+                            animationInterval = null;
+                            playButton.querySelector('.play-icon').textContent = '▶';
+                            lapCounter.textContent = `Vuelta: ${totalLaps} / ${totalLaps} - ¡Completado!`;
+                        }
+                    }, frameDelay);
+                }
+            });
+            
+            resetButton.addEventListener('click', function() {
+                if (animationInterval) {
+                    clearInterval(animationInterval);
+                    animationInterval = null;
+                    playButton.querySelector('.play-icon').textContent = '▶';
+                }
+                currentLap = 1;
+                // Destruir el chart para reiniciar desde cero
+                if (chart) {
+                    chart.destroy();
+                    chart = null;
+                }
+                createPositionsChart(data, currentLap);
+                lapCounter.textContent = `Vuelta: ${currentLap} / ${totalLaps}`;
+            });
         }
 
         function checkAdminStatus() {
@@ -423,9 +1512,14 @@
 
         // Modificar el evento DOMContentLoaded
         document.addEventListener('DOMContentLoaded', function() {
-            // Cargar race.json al inicio
-            loadInitialData();
-            checkAdminStatus();
+            // Cargar Chart.js dinámicamente
+            const chartScript = document.createElement('script');
+            chartScript.src = 'https://cdn.jsdelivr.net/npm/chart.js';
+            chartScript.onload = function() {
+                loadRace(3); // Cargar carrera 3 por defecto
+                checkAdminStatus();
+            };
+            document.head.appendChild(chartScript);
         });
 
         function validateJsonStructure(jsonData) {
@@ -440,6 +1534,11 @@
                 throw new Error('Los campos Result y Cars deben ser arrays');
             }
             
+            // Verificar que exista al menos una de las estructuras de colisiones
+            if (!jsonData.Events && !jsonData.colisiones) {
+                console.warn('Advertencia: No se encontraron datos de colisiones en ningún formato');
+            }
+            
             return true;
         }
 
@@ -449,39 +1548,6 @@
             const minutes = Math.floor(ms / 60000);
             const seconds = ((ms % 60000) / 1000).toFixed(3);
             return `${minutes}:${seconds.padStart(6, '0')}`;
-        }
-
-        function updateRaceInfo(data) {
-            const raceInfo = document.getElementById('raceInfo');
-            
-            // Obtener los tres primeros clasificados
-            const podium = data.Result
-                .filter(result => !result.Disqualified && result.TotalTime > 0)
-                .sort((a, b) => a.TotalTime - b.TotalTime)
-                .slice(0, 3);
-
-            raceInfo.innerHTML = `
-                <h2>${data.EventName || 'Evento sin nombre'}</h2>
-                <div class="podium-container">
-                    <div class="podium-image">
-                        <img src="public/images/podium.png" alt="Podium" class="podium-bg">
-                        <div class="podium-names">
-                            <div class="podium-p2">${podium[1]?.DriverName || '-'}</div>
-                            <div class="podium-p1">${podium[0]?.DriverName || '-'}</div>
-                            <div class="podium-p3">${podium[2]?.DriverName || '-'}</div>
-                        </div>
-                    </div>
-                </div>
-            `;
-        }
-
-        function toggleLapTimes(resultId) {
-            const lapTimesDiv = document.getElementById(`lapTimes-${resultId}`);
-            if (lapTimesDiv.style.display === 'none') {
-                lapTimesDiv.style.display = 'block';
-            } else {
-                lapTimesDiv.style.display = 'none';
-            }
         }
 
         function updateTable() {
@@ -528,19 +1594,27 @@
 
             // Función auxiliar para obtener colisiones de un piloto
             function getCollisions(result) {
-                if (!data.Events) return [];
-                return data.Events
+                if (!data.Events && !data.colisiones) return [];
+                
+                // Usar Events o colisiones según lo que esté disponible
+                const eventos = data.Events || data.colisiones;
+                
+                return eventos
                     .filter(event => 
                         event.Type === 'COLLISION_WITH_CAR' && 
-                        (event.CarId === result.CarId || event.OtherCarId === result.CarId))
+                        (event.CarId === result.CarId || event.OtherCarId === result.CarId)
+                    )
                     .map(event => {
                         const isMainDriver = event.CarId === result.CarId;
-                        const otherDriver = isMainDriver ? event.OtherDriver.Name : event.Driver.Name;
+                        // Manejar ambos formatos: objeto {Name: "..."} o string directo
+                        const otherDriver = isMainDriver ? 
+                            (event.OtherDriver?.Name || event.OtherDriver) : 
+                            (event.Driver?.Name || event.Driver);
                         return {
                             otherDriver,
                             speed: event.ImpactSpeed,
                             timestamp: event.Timestamp,
-                            position: event.WorldPosition
+                            position: event.WorldPosition || { X: 0, Y: 0, Z: 0 }
                         };
                     });
             }
@@ -631,11 +1705,7 @@
                                             <div class="collision-item">
                                                 <strong>Colisión ${index + 1}</strong><br>
                                                 Con: ${c.otherDriver}<br>
-                                                Velocidad: ${c.speed.toFixed(1)} km/h<br>
-                                                Tiempo: ${formatTimestamp(c.timestamp)}<br>
-                                                Posición: X:${c.position.X.toFixed(2)}, 
-                                                         Y:${c.position.Y.toFixed(2)}, 
-                                                         Z:${c.position.Z.toFixed(2)}
+                                                Velocidad de impacto: ${c.speed.toFixed(1)} km/h
                                             </div>
                                         `).join('')}
                                     </div>
@@ -747,6 +1817,65 @@
         function formatTimestamp(timestamp) {
             const date = new Date(timestamp * 1000);
             return `${date.getMinutes()}:${date.getSeconds().toString().padStart(2, '0')}`;
+        }
+
+        function toggleCollisions(carId) {
+            const collisionsDiv = document.getElementById(`collisions-${carId}`);
+            if (collisionsDiv.style.display === 'none') {
+                collisionsDiv.style.display = 'block';
+            } else {
+                collisionsDiv.style.display = 'none';
+            }
+        }
+
+        function loadRace(raceNumber) {
+            const racePath = `SuperGT/Ronda ${raceNumber}.json`;
+            
+            // Limpiar el intervalo de animación existente si lo hay
+            if (animationInterval) {
+                clearInterval(animationInterval);
+                animationInterval = null;
+            }
+            
+            // Resetear el contador de vueltas
+            currentLap = 1;
+            
+            fetch(racePath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`No data`);
+                    }
+                    return response.json();
+                })
+                .then(jsonData => {
+                    data = jsonData;
+                    if (validateJsonStructure(data)) {
+                        updateRaceInfo(data);
+                        updateTable();
+                        updateParticipationTable();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error al cargar la ronda:', error);
+                    // Destruir el chart existente si hay error
+                    if (chart) {
+                        chart.destroy();
+                        chart = null;
+                    }
+                    document.getElementById('raceInfo').innerHTML = '<h2>Aun no hay datos de esta ronda</h2>';
+                    document.getElementById('tableBody').innerHTML = 
+                        '<tr><td colspan="9">Aun no hay datos de esta ronda</td></tr>';
+                    document.getElementById('participationTableBody').innerHTML = '';
+                });
+        }
+
+        function toggleLapTimes(resultId) {
+            const lapTimesDiv = document.getElementById(`lapTimes-${resultId}`);
+            if (lapTimesDiv.style.display === 'none') {
+                lapTimesDiv.style.display = 'block';
+            } else {
+                lapTimesDiv.style.display = 'none';
+            }
         }
     </script>
 </body>

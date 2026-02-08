@@ -1,0 +1,788 @@
+'+++++++++++++++++++++
+Qualify
+'+++++++++++++++++++++
+
+Game:, "Assetto Corsa"
+Session:, "Qualify"
+Track:, "autopolis_katsuo, international"
+Pole, "Luciano DR.(01:41.6380)"
+Lasted laps, "6"
+Host, "Unknown"
+
+
+
+Qualify result
+'======================
+Pos,   Class, Team, Vehicle, Driver, Laps, Best lap, Gap
+"1",   "", "LDR", "chawaii_subaru_wrx_sti_gr3", "Luciano DR.", "4", "01:41.6380", "-",
+"2",   "", "Aviles-Sport", "chawaii_subaru_wrx_sti_gr3", "Kappy Astur", "4", "01:41.9310", "00:00.2930",
+"3",   "", "Team Chermi", "chawaii_subaru_wrx_sti_gr3", "Ezequiel Cherminando", "5", "01:42.0430", "00:00.4050",
+"4",   "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Jose Miguel Romay", "6", "01:42.3070", "00:00.6690",
+"5",   "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Rafa Alvarez", "4", "01:43.3130", "00:01.6750",
+"6",   "", "", "chawaii_subaru_wrx_sti_gr3", "Jucarcaz", "4", "01:43.3330", "00:01.6950",
+"7",   "", "GIM", "chawaii_subaru_wrx_sti_gr3", "Gino Ivan Muchiut", "4", "01:43.5930", "00:01.9550",
+"8",   "", "AMC Racing Team", "chawaii_subaru_wrx_sti_gr3", "Antonio Martínez", "5", "01:45.4940", "00:03.8560",
+"9",   "", "AMC Racing Team", "chawaii_subaru_wrx_sti_gr3", "Josu Puelles", "6", "01:45.5700", "00:03.9320",
+"10",   "", "Loa Racing", "chawaii_subaru_wrx_sti_gr3", "Ramiro", "0", "-", "-",
+"11",   "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Juan Carlos Ortega", "0", "-", "-",
+"12",   "", "RM Racing", "chawaii_subaru_wrx_sti_gr3", "Juan Izaguirre", "0", "-", "-",
+"13",   "", "nrc", "chawaii_subaru_wrx_sti_gr3", "bertillo30", "0", "-", "-",
+"14",   "", "AuTornay Racing Team", "chawaii_subaru_wrx_sti_gr3", "Kyogren2911", "0", "-", "-",
+"15",   "", "savepangolines", "chawaii_subaru_wrx_sti_gr3", "PANGOLIN DORMIDO", "0", "-", "-",
+"16",   "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Manolo Laguarda", "0", "-", "-",
+"17",   "", "GTS92", "chawaii_subaru_wrx_sti_gr3", "Juan José Ruiz García (Mecajota)", "0", "-", "-",
+"18",   "", "ForoAssetto", "chawaii_subaru_wrx_sti_gr3", "Antonio Gomez", "0", "-", "-",
+"19",   "", "BMT Racing", "chawaii_subaru_wrx_sti_gr3", "Montoro", "0", "-", "-",
+"20",   "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Akira", "0", "-", "-",
+"21",   "", "", "chawaii_subaru_wrx_sti_gr3", "LOA TV", "0", "-", "-",
+
+Qualify laps
+'======================
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Luciano DR."
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:55.0160", "42.5940", "34.1230", "38.2990",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.4230", "30.7020", "33.7810", "37.9400",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.0280", "30.3340", "33.9710", "37.7230",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:41.6380", "30.2540", "33.9620", "37.4220",  "F:M - R:M",     "0 ",  
+Average,,,"01:45.2763", "33.4710", "33.9593", "37.8460"
+Best possible,,, "01:41.4570", "30.2540", "33.7810", "37.4220"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Kappy Astur"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:27.3830", "74.0330", "34.4790", "38.8710",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.6340", "30.7560", "33.8670", "38.0110",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:41.9310", "30.2230", "33.9570", "37.7510",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.2840", "30.6620", "33.7330", "37.8890",  "F:M - R:M",     "0 ",  
+Average,,,"01:53.5580", "41.4185", "34.0090", "38.1305"
+Best possible,,, "01:41.7070", "30.2230", "33.7330", "37.7510"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ezequiel Cherminando"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "03:28.2820", "132.8840", "35.8300", "39.5680",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.4570", "30.5560", "34.2940", "37.6070",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.0430", "30.3630", "33.8670", "37.8130",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:12.7550", "57.4120", "35.3390", "40.0040",  "F:M - R:M",     "1  (0s e.t. <>  0s gain) ",  
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5260", "30.8320", "33.9480", "37.7460",  "F:M - R:M",     "0 ",  
+Average,,,"02:09.6126", "56.4094", "34.6556", "38.5476"
+Best possible,,, "01:41.8370", "30.3630", "33.8670", "37.6070"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Jose Miguel Romay"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:39.2120", "86.7670", "34.2000", "38.2450",  "F:S - R:S",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5350", "30.5760", "34.2090", "37.7500",  "F:S - R:S",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5340", "30.6240", "33.7680", "38.1420",  "F:S - R:S",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:03.6960", "51.6870", "33.8390", "38.1700",  "F:M - R:M",     "0 ",  
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.3390", "30.6440", "33.6970", "37.9980",  "F:M - R:M",     "0 ",  
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.3070", "30.6710", "33.7410", "37.8950",  "F:M - R:M",     "0 ",  
+Average,,,"01:55.4371", "43.4948", "33.9090", "38.0333"
+Best possible,,, "01:42.0230", "30.5760", "33.6970", "37.7500"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Rafa Alvarez"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "03:40.8190", "146.9290", "34.8440", "39.0460",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.6810", "31.0010", "34.4660", "38.2140",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8470", "31.4160", "34.4740", "37.9570",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3130", "30.9400", "34.2900", "38.0830",  "F:M - R:M",     "0 ",  
+Average,,,"02:12.9150", "60.0715", "34.5185", "38.3250"
+Best possible,,, "01:43.1870", "30.9400", "34.2900", "37.9570"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Jucarcaz"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "04:16.5590", "181.1130", "36.7640", "38.6820",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8620", "30.7780", "34.2990", "38.7850",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4490", "30.7200", "34.0740", "38.6550",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3330", "31.0940", "33.8230", "38.4160",  "F:M - R:M",     "0 ",  
+Average,,,"02:21.8008", "68.4263", "34.7400", "38.6345"
+Best possible,,, "01:42.9590", "30.7200", "33.8230", "38.4160"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Gino Ivan Muchiut"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:17.8490", "64.9040", "34.4170", "38.5280",  "F:S - R:S",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.9010", "30.8410", "35.3920", "39.6680",  "F:S - R:S",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.6390", "32.0820", "34.6000", "37.9570",  "F:S - R:S",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5930", "30.9000", "34.6270", "38.0660",  "F:S - R:S",     "0 ",  
+Average,,,"01:52.9956", "39.6818", "34.7590", "38.5548"
+Best possible,,, "01:43.2150", "30.8410", "34.4170", "37.9570"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Antonio Martínez"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "03:39.1190", "138.9160", "37.3010", "42.9020",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:48.9790", "33.8830", "35.2030", "39.8930",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.4940", "31.4560", "34.6450", "39.3930",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.0130", "32.0780", "34.7090", "39.2260",  "F:M - R:M",     "0 ",  
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.0630", "31.5300", "34.7080", "39.8250",  "F:M - R:M",     "0 ",  
+Average,,,"02:09.1336", "53.5726", "35.3132", "40.2478"
+Best possible,,, "01:45.3270", "31.4560", "34.6450", "39.2260"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Josu Puelles"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:12.9460", "57.2150", "35.7220", "40.0090",  "F:M - R:M",     "0 ",  
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.6740", "31.4920", "35.3740", "39.8080",  "F:M - R:M",     "0 ",  
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.3340", "31.9810", "35.8380", "39.5150",  "F:M - R:M",     "0 ",  
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.5700", "31.5260", "34.9430", "39.1010",  "F:M - R:M",     "0 ",  
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.3610", "31.8370", "35.3790", "39.1450",  "F:M - R:M",     "0 ",  
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.8430", "31.4040", "35.2300", "39.2090",  "F:M - R:M",     "0 ",  
+Average,,,"01:50.7880", "35.9092", "35.4143", "39.4645"
+Best possible,,, "01:45.4480", "31.4040", "34.9430", "39.1010"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Ramiro"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Juan Carlos Ortega"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Juan Izaguirre"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"bertillo30"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Kyogren2911"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"PANGOLIN DORMIDO"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Manolo Laguarda"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Juan José Ruiz García (Mecajota)"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Antonio Gomez"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Montoro"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"Akira"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,    Cuts, 
+"LOA TV"
+No laps for this driver
+
+
+Qualify best laps
+'======================
+'------------------------
+Overall top (20)
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:41.6380", ""
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "01:41.9310", "0.293"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:42.0280", "0.39"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.0430", "0.405"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "01:42.2840", "0.646"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "01:42.3070", "0.669"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "01:42.3390", "0.701"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:42.4230", "0.785"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.4570", "0.819"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.5260", "0.888"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "01:42.5340", "0.896"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "01:42.5350", "0.897"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "01:42.6340", "0.996"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "01:43.3130", "1.675"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "01:43.3330", "1.695"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "01:43.4490", "1.811"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "01:43.5930", "1.955"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "01:43.6810", "2.043"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "01:43.8470", "2.209"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "01:43.8620", "2.224"
+
+
+'------------------------
+Per driver
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:41.6380", ""
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "01:41.9310", "0.293"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.0430", "0.405"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "01:42.3070", "0.669"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "01:43.3130", "1.675"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "01:43.3330", "1.695"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "01:43.5930", "1.955"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "01:45.4940", "3.856"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "01:45.5700", "3.932"
+
+
+Qualify consistency
+'======================
+Driver, Vehicle, Consistency,
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "99.84%  0.1623",
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "99.69%  0.3225",
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "99.56%  0.4485",
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "99.56%  0.451",
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "99.48%  0.528",
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "99.42%  0.5875",
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "99.07%  0.983",
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "98.56%  1.5243",
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "98.38%  1.677",
+"Ramiro", "chawaii_subaru_wrx_sti_gr3", "-",
+"Juan Carlos Ortega", "chawaii_subaru_wrx_sti_gr3", "-",
+"Juan Izaguirre", "chawaii_subaru_wrx_sti_gr3", "-",
+"bertillo30", "chawaii_subaru_wrx_sti_gr3", "-",
+"Kyogren2911", "chawaii_subaru_wrx_sti_gr3", "-",
+"PANGOLIN DORMIDO", "chawaii_subaru_wrx_sti_gr3", "-",
+"Manolo Laguarda", "chawaii_subaru_wrx_sti_gr3", "-",
+"Juan José Ruiz García (Mecajota)", "chawaii_subaru_wrx_sti_gr3", "-",
+"Antonio Gomez", "chawaii_subaru_wrx_sti_gr3", "-",
+"Montoro", "chawaii_subaru_wrx_sti_gr3", "-",
+"Akira", "chawaii_subaru_wrx_sti_gr3", "-",
+"LOA TV", "chawaii_subaru_wrx_sti_gr3", "-",
+
+
+
+
+Qualify sectors
+'======================
+'------------------------
+Sector 1
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "30.2230", "-"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "30.2540", "0.0310"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "30.3630", "0.1400"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "30.5760", "0.3530"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "30.7200", "0.4970"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "30.8410", "0.6180"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "30.9400", "0.7170"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "31.4040", "1.1810"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "31.4560", "1.2330"
+'------------------------
+Sector 2
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "33.6970", "-"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "33.7330", "0.0360"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "33.7810", "0.0840"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "33.8230", "0.1260"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "33.8670", "0.1700"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "34.2900", "0.5930"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "34.4170", "0.7200"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "34.6450", "0.9480"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "34.9430", "1.2460"
+'------------------------
+Sector 3
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "37.4220", "-"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "37.6070", "0.1850"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "37.7500", "0.3280"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "37.7510", "0.3290"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "37.9570", "0.5350"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "37.9570", "0.5350"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "38.4160", "0.9940"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "39.1010", "1.6790"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "39.2260", "1.8040"
+
+
+
+Qualify cuts
+'======================
+Date, Lap e.t., Lap, Driver, Cut Time, Time skipped
+"", "00:00", "4", "Ezequiel Cherminando", "", ""
+
+
+
+
+
+
+'+++++++++++++++++++++
+Race
+'+++++++++++++++++++++
+
+Game:, "Assetto Corsa"
+Session:, "Race"
+Track:, "autopolis_katsuo, international"
+Winner, "Ezequiel Cherminando"
+Led most laps, "Ezequiel Cherminando"
+Best lap, "Ezequiel Cherminando (01:42.0610)"
+Lasted laps, "24"
+Host, "Unknown"
+
+
+Race result
+'======================
+Pos,    Class, Team, Vehicle, Driver, Laps, Time/Retired, Best lap, Consistency, Led, Pits,
+"1",  "", "Team Chermi", "chawaii_subaru_wrx_sti_gr3", "Ezequiel Cherminando", "24", "    41:08.0410", "01:42.0610", "99.36%", "20", "0", 
+"2",  "", "LDR", "chawaii_subaru_wrx_sti_gr3", "Luciano DR.", "24", "  '+00:08.2880", "01:42.5640", "99.46%", "4", "0", 
+"3",  "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Rafa Alvarez", "24", "  '+00:21.4130", "01:43.2480", "99.69%", "0", "0", 
+"4",  "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Jose Miguel Romay", "24", "  '+00:21.9980", "01:43.0720", "99.51%", "0", "0", 
+"5",  "", "Aviles-Sport", "chawaii_subaru_wrx_sti_gr3", "Kappy Astur", "24", "  '+00:22.4850", "01:42.9190", "99.42%", "0", "0", 
+"6",  "", "", "chawaii_subaru_wrx_sti_gr3", "Jucarcaz", "24", "  '+00:24.7070", "01:43.0460", "99.50%", "0", "0", 
+"7",  "", "GIM", "chawaii_subaru_wrx_sti_gr3", "Gino Ivan Muchiut", "24", "  '+00:34.8760", "01:42.8980", "98.78%", "0", "0", 
+"8",  "", "AMC Racing Team", "chawaii_subaru_wrx_sti_gr3", "Antonio Martínez", "23", "  '+02:12.4980", "01:44.8580", "96.47%", "0", "0", 
+"9",  "", "AMC Racing Team", "chawaii_subaru_wrx_sti_gr3", "Josu Puelles", "23", "  '+02:26.9300", "01:45.7910", "96.76%", "0", "0", 
+"10",  "", "Loa Racing", "chawaii_subaru_wrx_sti_gr3", "Ramiro", "0", " DNF", "-", "-", "0", "0", 
+"11",  "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Juan Carlos Ortega", "0", " DNF", "-", "-", "0", "0", 
+"12",  "", "RM Racing", "chawaii_subaru_wrx_sti_gr3", "Juan Izaguirre", "0", " DNF", "-", "-", "0", "0", 
+"13",  "", "nrc", "chawaii_subaru_wrx_sti_gr3", "bertillo30", "0", " DNF", "-", "-", "0", "0", 
+"14",  "", "AuTornay Racing Team", "chawaii_subaru_wrx_sti_gr3", "Kyogren2911", "0", " DNF", "-", "-", "0", "0", 
+"15",  "", "savepangolines", "chawaii_subaru_wrx_sti_gr3", "PANGOLIN DORMIDO", "0", " DNF", "-", "-", "0", "0", 
+"16",  "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Manolo Laguarda", "0", " DNF", "-", "-", "0", "0", 
+"17",  "", "GTS92", "chawaii_subaru_wrx_sti_gr3", "Juan José Ruiz García (Mecajota)", "0", " DNF", "-", "-", "0", "0", 
+"18",  "", "ForoAssetto", "chawaii_subaru_wrx_sti_gr3", "Antonio Gomez", "0", " DNF", "-", "-", "0", "0", 
+"19",  "", "BMT Racing", "chawaii_subaru_wrx_sti_gr3", "Montoro", "0", " DNF", "-", "-", "0", "0", 
+"20",  "", "LOA Racing", "chawaii_subaru_wrx_sti_gr3", "Akira", "0", " DNF", "-", "-", "0", "0", 
+"21",  "", "", "chawaii_subaru_wrx_sti_gr3", "LOA TV", "0", " DNF", "-", "-", "0", "0", 
+
+
+Race laps
+'======================
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Ezequiel Cherminando"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.2980", "33.9380", "34.4120", "37.9480",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1880", "30.6750", "34.1500", "38.3630",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.6620", "30.7250", "34.1510", "37.7860",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5210", "30.7190", "34.4070", "38.3950",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.9230", "30.9820", "34.0610", "37.8800",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5080", "30.7100", "33.9220", "37.8760",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5780", "30.7040", "33.9220", "37.9520",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.4400", "30.4990", "34.0110", "37.9300",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5080", "30.7640", "34.0070", "37.7370",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.2770", "30.5830", "33.9660", "37.7280",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.6550", "30.5520", "34.0150", "38.0880",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.2000", "30.7310", "33.8230", "37.6460",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.2240", "35.2740", "33.9290", "38.0210",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.3990", "30.6780", "33.9570", "37.7640",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.3560", "30.6530", "33.9840", "37.7190",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.1660", "30.5750", "33.8670", "37.7240",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.1690", "30.6780", "33.8400", "37.6510",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5870", "30.6320", "34.0020", "37.9530",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.1250", "30.4900", "33.8080", "37.8270",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5080", "30.6020", "34.0380", "37.8680",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.0610", "30.5150", "33.9030", "37.6430",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.0790", "30.4350", "33.8300", "37.8140",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.2500", "30.4710", "34.0740", "37.7050",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.3760", "30.6460", "34.0560", "37.6740",  "F:M - R:M",     
+Average,,,"01:42.8358", "30.9680", "34.0056", "37.8622"
+Best possible,,, "01:41.8860", "30.4350", "33.8080", "37.6430"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Luciano DR."
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.4140", "32.7740", "34.2090", "38.4310",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5090", "30.6990", "34.7390", "38.0710",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.7530", "30.4550", "34.1190", "38.1790",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8820", "30.8200", "34.4610", "38.6010",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.5900", "31.5240", "34.7840", "38.2820",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8390", "30.5830", "34.3080", "37.9480",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.0070", "30.6470", "33.9530", "38.4070",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8590", "30.7870", "33.9300", "38.1420",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.9250", "30.3580", "34.1870", "38.3800",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2040", "30.5250", "34.0780", "38.6010",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8840", "30.8480", "33.9930", "38.0430",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8640", "30.4090", "34.3980", "38.0570",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4190", "30.8740", "34.1240", "38.4210",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7060", "30.6220", "34.5280", "38.5560",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4710", "30.7960", "34.3930", "38.2820",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.7860", "30.4930", "34.1510", "38.1420",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.5640", "30.5360", "33.8760", "38.1520",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.0180", "30.5270", "34.1510", "38.3400",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.7410", "30.8620", "33.8980", "37.9810",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.9860", "30.6810", "33.7900", "38.5150",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8370", "30.6830", "34.1020", "38.0520",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8200", "30.4910", "33.9940", "38.3350",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.7940", "30.6150", "33.9650", "38.2140",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.6110", "30.6470", "33.8720", "38.0920",  "F:M - R:M",     
+Average,,,"01:43.1868", "30.7607", "34.1668", "38.2593"
+Best possible,,, "01:42.0960", "30.3580", "33.7900", "37.9480"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Rafa Alvarez"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.7090", "34.5930", "34.6310", "38.4850",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.5350", "31.4680", "34.4700", "38.5970",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3380", "31.0940", "34.1650", "38.0790",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.6610", "31.0680", "34.4150", "38.1780",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5520", "30.8500", "34.2490", "38.4530",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3970", "30.9740", "34.1380", "38.2850",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4930", "31.0030", "34.2630", "38.2270",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2550", "30.8190", "34.4110", "38.0250",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4240", "30.8570", "34.2230", "38.3440",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5570", "30.7560", "34.1810", "38.6200",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3290", "30.8250", "34.2580", "38.2460",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2480", "30.7660", "34.3310", "38.1510",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3150", "30.7890", "34.2400", "38.2860",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2620", "30.7540", "34.0830", "38.4250",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7820", "31.1160", "34.2670", "38.3990",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5350", "30.9680", "34.2280", "38.3390",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5390", "30.8900", "34.4610", "38.1880",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7970", "31.0050", "34.4960", "38.2960",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.0030", "31.2210", "34.4380", "38.3440",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7360", "31.0250", "34.0830", "38.6280",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2860", "30.8770", "34.3350", "38.0740",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2500", "30.9630", "34.1100", "38.1770",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.2270", "30.9220", "34.6140", "38.6910",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2710", "30.7850", "34.2730", "38.2130",  "F:M - R:M",     
+Average,,,"01:43.7292", "31.0995", "34.3068", "38.3229"
+Best possible,,, "01:42.8620", "30.7540", "34.0830", "38.0250"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Jose Miguel Romay"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:48.2300", "34.9700", "34.8530", "38.4070",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.7180", "31.2550", "34.5200", "38.9430",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3420", "30.6990", "34.3030", "38.3400",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5140", "30.8260", "34.1640", "38.5240",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5570", "30.8990", "34.6730", "37.9850",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2930", "30.7570", "34.3490", "38.1870",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9320", "30.8240", "35.0370", "38.0710",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2930", "30.9640", "34.3300", "37.9990",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7070", "31.1710", "34.3170", "38.2190",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1940", "30.8870", "34.1960", "38.1110",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3330", "30.9420", "34.3790", "38.0120",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1190", "30.7860", "34.0290", "38.3040",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1170", "30.8740", "34.0240", "38.2190",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2800", "30.6950", "34.1470", "38.4380",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8990", "30.9980", "34.4440", "38.4570",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5630", "31.2020", "34.0740", "38.2870",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2470", "30.9190", "34.1500", "38.1780",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9080", "30.9710", "34.7220", "38.2150",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.0440", "31.0810", "34.3220", "38.6410",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5330", "30.8570", "34.2820", "38.3940",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4640", "30.8690", "34.2460", "38.3490",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.0720", "30.8830", "34.1550", "38.0340",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.2440", "30.9380", "34.7270", "38.5790",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4810", "30.9060", "34.0380", "38.5370",  "F:M - R:M",     
+Average,,,"01:43.7535", "31.0905", "34.3534", "38.3096"
+Best possible,,, "01:42.7040", "30.6950", "34.0240", "37.9850"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Kappy Astur"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:50.2850", "33.2630", "37.9440", "39.0780",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7450", "30.7370", "34.7130", "38.2950",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.6380", "30.6070", "34.6410", "38.3900",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.9370", "30.6990", "34.0510", "38.1870",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.6990", "30.7810", "34.4030", "38.5150",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.0380", "30.6500", "34.2640", "38.1240",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8320", "30.6310", "34.7620", "38.4390",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3900", "30.7380", "34.5140", "38.1380",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5280", "30.7450", "34.5600", "38.2230",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.0910", "30.8260", "34.0340", "38.2310",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2590", "30.8360", "34.2810", "38.1420",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2240", "30.7020", "33.9300", "38.5920",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1480", "30.8880", "34.1010", "38.1590",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1430", "30.5260", "34.3080", "38.3090",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7340", "31.0050", "34.3980", "38.3310",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.2730", "31.3640", "34.4660", "39.4430",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7970", "30.9280", "34.4200", "38.4490",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4320", "30.7530", "34.4650", "38.2140",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5510", "31.0640", "34.2140", "38.2730",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3100", "30.6530", "34.1870", "38.4700",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3680", "30.6120", "34.3610", "38.3950",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8150", "30.8240", "34.4790", "38.5120",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.9190", "30.6400", "34.0160", "38.2630",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2990", "30.7140", "34.2360", "38.3490",  "F:M - R:M",     
+Average,,,"01:43.7690", "30.8828", "34.4895", "38.3967"
+Best possible,,, "01:42.5800", "30.5260", "33.9300", "38.1240"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Jucarcaz"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:51.4870", "35.9910", "35.4590", "40.0370",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.6130", "30.7490", "34.4620", "38.4020",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8260", "30.7640", "34.5150", "38.5470",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.6240", "31.0520", "34.2370", "38.3350",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.0460", "30.8400", "34.0650", "38.1410",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3720", "30.9170", "34.1870", "38.2680",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4060", "30.9880", "34.2850", "38.1330",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3590", "31.0120", "34.3310", "38.0160",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2390", "30.6530", "34.3800", "38.2060",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8550", "30.9690", "34.0380", "38.8480",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2260", "31.0730", "33.7280", "38.4250",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4440", "30.7240", "34.2230", "38.4970",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9010", "31.4790", "34.1270", "38.2950",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9080", "30.9310", "34.5730", "38.4040",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3380", "30.6990", "34.1460", "38.4930",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7380", "30.7980", "34.7300", "38.2100",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7220", "30.8350", "34.5820", "38.3050",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1310", "30.6800", "33.9710", "38.4800",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.1560", "31.5890", "34.3040", "38.2630",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.1420", "30.8500", "34.2270", "38.0650",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.2140", "30.6930", "34.2270", "38.2940",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.4260", "30.8360", "34.0660", "38.5240",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5320", "30.7270", "34.8210", "37.9840",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.0960", "31.3400", "34.3800", "38.3760",  "F:M - R:M",     
+Average,,,"01:43.8667", "31.1329", "34.3360", "38.3978"
+Best possible,,, "01:42.3650", "30.6530", "33.7280", "37.9840"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Gino Ivan Muchiut"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:48.8800", "35.3720", "35.1500", "38.3580",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.7030", "31.4110", "34.9880", "38.3040",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.8540", "30.6530", "35.2000", "39.0010",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.7430", "31.8390", "34.7660", "38.1380",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.3660", "31.1810", "34.2190", "37.9660",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:42.8980", "30.6330", "34.2580", "38.0070",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.2160", "31.1140", "34.7620", "38.3400",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7730", "30.9720", "34.6770", "38.1240",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.0440", "30.9240", "34.4960", "38.6240",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.1710", "30.9020", "34.2090", "39.0600",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8620", "30.7020", "34.7210", "38.4390",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.1320", "30.7550", "34.6960", "38.6810",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5880", "30.6650", "34.6590", "38.2640",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.5500", "30.7490", "34.5920", "38.2090",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.0650", "31.0840", "34.6500", "38.3310",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9730", "31.2850", "34.3310", "38.3570",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.8450", "30.8540", "34.7590", "38.2320",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.7010", "31.6440", "34.7480", "38.3090",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.3680", "32.4770", "34.3530", "38.5380",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9700", "30.7870", "34.9110", "38.2720",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.9710", "30.6700", "34.4700", "38.8310",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.0170", "30.7610", "34.4530", "38.8030",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:43.7930", "30.5520", "34.6760", "38.5650",  "F:M - R:M",     
+"24 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.6410", "30.9000", "34.9370", "38.8040",  "F:M - R:M",     
+Average,,,"01:44.2969", "31.2036", "34.6534", "38.4399"
+Best possible,,, "01:42.7270", "30.5520", "34.2090", "37.9660"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Antonio Martínez"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:53.5820", "37.2670", "35.8830", "40.4320",  "F:M - R:M",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:51.9720", "32.3980", "36.4100", "43.1640",  "F:M - R:M",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.7440", "32.1250", "35.3840", "39.2350",  "F:M - R:M",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:57.5590", "43.4390", "34.5240", "39.5960",  "F:M - R:M",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.2730", "31.9190", "34.5690", "39.7850",  "F:M - R:M",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.9700", "32.2430", "34.9300", "39.7970",  "F:M - R:M",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.3730", "31.3630", "35.2980", "40.7120",  "F:M - R:M",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.6630", "32.2290", "34.6180", "39.8160",  "F:M - R:M",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:53.6620", "39.0120", "34.7890", "39.8610",  "F:M - R:M",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:53.0640", "33.1660", "35.4020", "44.4960",  "F:M - R:M",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.5040", "32.1070", "35.1040", "40.2930",  "F:M - R:M",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:50.9100", "35.8900", "35.2660", "39.7540",  "F:M - R:M",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.9020", "31.7380", "34.4750", "39.6890",  "F:M - R:M",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.1480", "31.6560", "34.7480", "39.7440",  "F:M - R:M",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.3920", "31.5880", "34.6100", "39.1940",  "F:M - R:M",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.2580", "31.5070", "34.2680", "39.4830",  "F:M - R:M",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:44.8580", "31.1940", "34.4960", "39.1680",  "F:M - R:M",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:51.3330", "31.4350", "36.8870", "43.0110",  "F:M - R:M",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.2800", "33.0930", "34.8030", "39.3840",  "F:M - R:M",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.8210", "31.3920", "34.7530", "39.6760",  "F:M - R:M",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:52.7270", "32.0690", "40.3610", "40.2970",  "F:M - R:M",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.6450", "31.6420", "34.6140", "39.3890",  "F:M - R:M",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.5560", "31.2290", "34.6590", "39.6680",  "F:M - R:M",     
+Average,,,"01:48.6172", "33.1174", "35.2544", "40.2454"
+Best possible,,, "01:44.6300", "31.1940", "34.2680", "39.1680"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Josu Puelles"
+"1 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:53.2280", "36.6300", "35.9860", "40.6120",  "F:H - R:H",     
+"2 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:51.8370", "31.7500", "36.2210", "43.8660",  "F:H - R:H",     
+"3 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.0410", "31.7110", "35.4420", "39.8880",  "F:H - R:H",     
+"4 ", chawaii_subaru_wrx_sti_gr3, no,"0", "02:03.0360", "44.0880", "36.0000", "42.9480",  "F:H - R:H",     
+"5 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.5720", "31.6570", "35.8290", "40.0860",  "F:H - R:H",     
+"6 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.7050", "31.5240", "35.3650", "39.8160",  "F:H - R:H",     
+"7 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.0740", "32.0190", "35.2800", "39.7750",  "F:H - R:H",     
+"8 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.3950", "31.4920", "35.2120", "39.6910",  "F:H - R:H",     
+"9 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:50.1410", "31.4540", "35.6400", "43.0470",  "F:H - R:H",     
+"10 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:51.3820", "31.6020", "35.7030", "44.0770",  "F:H - R:H",     
+"11 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.6000", "32.5050", "35.2160", "39.8790",  "F:H - R:H",     
+"12 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.5880", "32.2140", "35.1400", "40.2340",  "F:H - R:H",     
+"13 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.2160", "31.3860", "35.0500", "39.7800",  "F:H - R:H",     
+"14 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.7910", "31.2450", "35.0860", "39.4600",  "F:H - R:H",     
+"15 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:45.9590", "31.4530", "35.1040", "39.4020",  "F:H - R:H",     
+"16 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:48.8130", "31.1880", "35.4100", "42.2150",  "F:H - R:H",     
+"17 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:52.7380", "31.4640", "35.9900", "45.2840",  "F:H - R:H",     
+"18 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:59.7600", "45.0820", "35.3790", "39.2990",  "F:H - R:H",     
+"19 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.1910", "31.2920", "35.0690", "39.8300",  "F:H - R:H",     
+"20 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.8470", "31.0450", "35.9050", "40.8970",  "F:H - R:H",     
+"21 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:47.1360", "31.6430", "35.2810", "40.2120",  "F:H - R:H",     
+"22 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.6090", "31.8600", "35.3020", "39.4470",  "F:H - R:H",     
+"23 ", chawaii_subaru_wrx_sti_gr3, no,"0", "01:46.0520", "31.7130", "34.5820", "39.7570",  "F:H - R:H",     
+Average,,,"01:49.2483", "32.9573", "35.4431", "40.8479"
+Best possible,,, "01:44.9260", "31.0450", "34.5820", "39.2990"
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Ramiro"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Juan Carlos Ortega"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Juan Izaguirre"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"bertillo30"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Kyogren2911"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"PANGOLIN DORMIDO"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Manolo Laguarda"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Juan José Ruiz García (Mecajota)"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Antonio Gomez"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Montoro"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"Akira"
+No laps for this driver
+
+Lap, Vehicle, Pit, Pit time, Time, Sector 1, Sector 2, Sector 3,  Compound,     
+"LOA TV"
+No laps for this driver
+
+
+Race best laps
+'======================
+'------------------------
+Overall top (20)
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.0610", ""
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.0790", "0.018"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.1250", "0.064"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.1660", "0.105"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.1690", "0.108"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.2000", "0.139"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.2500", "0.189"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.2770", "0.216"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.3560", "0.295"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.3760", "0.315"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.3990", "0.338"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.4400", "0.379"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.5080", "0.447"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.5080", "0.447"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.5080", "0.447"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:42.5640", "0.503"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.5780", "0.517"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.5870", "0.526"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:42.6110", "0.55"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.6550", "0.594"
+
+
+'------------------------
+Per driver
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "01:42.0610", ""
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "01:42.5640", "0.503"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "01:42.8980", "0.837"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "01:42.9190", "0.858"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "01:43.0460", "0.985"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "01:43.0720", "1.011"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "01:43.2480", "1.187"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "01:44.8580", "2.797"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "01:45.7910", "3.73"
+
+
+Race consistency
+'======================
+Driver, Vehicle, Consistency,
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "99.69%  0.3222",
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "99.51%  0.509",
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "99.50%  0.5116",
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "99.46%  0.5499",
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "99.42%  0.5924",
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "99.36%  0.6526",
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "98.78%  1.2541",
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "96.76%  3.4324",
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "96.47%  3.7018",
+"Ramiro", "chawaii_subaru_wrx_sti_gr3", "-",
+"Juan Carlos Ortega", "chawaii_subaru_wrx_sti_gr3", "-",
+"Juan Izaguirre", "chawaii_subaru_wrx_sti_gr3", "-",
+"bertillo30", "chawaii_subaru_wrx_sti_gr3", "-",
+"Kyogren2911", "chawaii_subaru_wrx_sti_gr3", "-",
+"PANGOLIN DORMIDO", "chawaii_subaru_wrx_sti_gr3", "-",
+"Manolo Laguarda", "chawaii_subaru_wrx_sti_gr3", "-",
+"Juan José Ruiz García (Mecajota)", "chawaii_subaru_wrx_sti_gr3", "-",
+"Antonio Gomez", "chawaii_subaru_wrx_sti_gr3", "-",
+"Montoro", "chawaii_subaru_wrx_sti_gr3", "-",
+"Akira", "chawaii_subaru_wrx_sti_gr3", "-",
+"LOA TV", "chawaii_subaru_wrx_sti_gr3", "-",
+
+
+
+
+Race sectors
+'======================
+'------------------------
+Sector 1
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "30.3580", "-"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "30.4350", "0.0770"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "30.5260", "0.1680"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "30.5520", "0.1940"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "30.6530", "0.2950"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "30.6950", "0.3370"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "30.7540", "0.3960"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "31.0450", "0.6870"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "31.1940", "0.8360"
+'------------------------
+Sector 2
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "33.7280", "-"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "33.7900", "0.0620"
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "33.8080", "0.0800"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "33.9300", "0.2020"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "34.0240", "0.2960"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "34.0830", "0.3550"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "34.2090", "0.4810"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "34.2680", "0.5400"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "34.5820", "0.8540"
+'------------------------
+Sector 3
+'------------------------
+Driver, Vehicle, Time, Gap,
+"Ezequiel Cherminando", "chawaii_subaru_wrx_sti_gr3", "37.6430", "-"
+"Luciano DR.", "chawaii_subaru_wrx_sti_gr3", "37.9480", "0.3050"
+"Gino Ivan Muchiut", "chawaii_subaru_wrx_sti_gr3", "37.9660", "0.3230"
+"Jucarcaz", "chawaii_subaru_wrx_sti_gr3", "37.9840", "0.3410"
+"Jose Miguel Romay", "chawaii_subaru_wrx_sti_gr3", "37.9850", "0.3420"
+"Rafa Alvarez", "chawaii_subaru_wrx_sti_gr3", "38.0250", "0.3820"
+"Kappy Astur", "chawaii_subaru_wrx_sti_gr3", "38.1240", "0.4810"
+"Antonio Martínez", "chawaii_subaru_wrx_sti_gr3", "39.1680", "1.5250"
+"Josu Puelles", "chawaii_subaru_wrx_sti_gr3", "39.2990", "1.6560"
+
+
+Race incidents
+'======================
+Date, Incident, Worth reviewing
+"", "Jose Miguel Romay reported contact with another vehicle Gino Ivan Muchiut. Impact speed: 10.628767",
+"", "Antonio Martínez reported contact with environment. Impact speed: 52.608856",
+"", "Antonio Martínez reported contact with another vehicle Josu Puelles. Impact speed: 18.3881",
+"", "Antonio Martínez reported contact with environment. Impact speed: 16.029427",
+"", "Josu Puelles reported contact with another vehicle Antonio Martínez. Impact speed: 16.202963",
+"", "Ezequiel Cherminando reported contact with another vehicle Luciano DR.. Impact speed: 1.4110646",
+"", "Luciano DR. reported contact with another vehicle Ezequiel Cherminando. Impact speed: 20.628035",
+"", "Josu Puelles reported contact with another vehicle Antonio Martínez. Impact speed: 20.453598",
+"", "Antonio Martínez reported contact with another vehicle Josu Puelles. Impact speed: 21.125408",
+"", "Luciano DR. reported contact with environment. Impact speed: 26.545866",
+"", "Ezequiel Cherminando reported contact with environment. Impact speed: 18.305115",
+
+
+
+
+
+
+
+
+
