@@ -1,0 +1,1991 @@
+{
+  "Version": 7,
+  "EventName": "Super GT - Ronda 4 - Qualify",
+  "Grip": 0.98,
+  "Temperature": 25,
+  "Humidity": 45,
+  "Cars": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "Driver": {
+        "Guid": "driver_0",
+        "GuidsList": [
+          "driver_0"
+        ],
+        "Name": "Jose Miguel Romay",
+        "Nation": "",
+        "Team": "LOA Racing",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin00",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "Driver": {
+        "Guid": "driver_1",
+        "GuidsList": [
+          "driver_1"
+        ],
+        "Name": "Jucarcaz",
+        "Nation": "",
+        "Team": "",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin01",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "Driver": {
+        "Guid": "driver_2",
+        "GuidsList": [
+          "driver_2"
+        ],
+        "Name": "Kappy Astur",
+        "Nation": "",
+        "Team": "Aviles-Sport",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin02",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "Driver": {
+        "Guid": "driver_3",
+        "GuidsList": [
+          "driver_3"
+        ],
+        "Name": "bertillo30",
+        "Nation": "",
+        "Team": "nrc",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin03",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "Driver": {
+        "Guid": "driver_4",
+        "GuidsList": [
+          "driver_4"
+        ],
+        "Name": "Juan Carlos Ortega",
+        "Nation": "",
+        "Team": "LOA Racing",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin04",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "Driver": {
+        "Guid": "driver_5",
+        "GuidsList": [
+          "driver_5"
+        ],
+        "Name": "Ruben Marquez",
+        "Nation": "",
+        "Team": "Team Chermi",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin05",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "Driver": {
+        "Guid": "driver_6",
+        "GuidsList": [
+          "driver_6"
+        ],
+        "Name": "Rafa Alvarez",
+        "Nation": "",
+        "Team": "LOA Racing",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin06",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "Driver": {
+        "Guid": "driver_7",
+        "GuidsList": [
+          "driver_7"
+        ],
+        "Name": "Gino Ivan Muchiut",
+        "Nation": "",
+        "Team": "GIM",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin07",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "Driver": {
+        "Guid": "driver_8",
+        "GuidsList": [
+          "driver_8"
+        ],
+        "Name": "Luciano DR.",
+        "Nation": "",
+        "Team": "LDR",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin00",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "Driver": {
+        "Guid": "driver_9",
+        "GuidsList": [
+          "driver_9"
+        ],
+        "Name": "Ramiro",
+        "Nation": "",
+        "Team": "Loa Racing",
+        "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db"
+      },
+      "Model": "chawaii_subaru_wrx_sti_gr3",
+      "Restrictor": 0,
+      "Skin": "skin01",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "MinPing": 0,
+      "MaxPing": 0
+    }
+  ],
+  "Events": [],
+  "Laps": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_0",
+      "DriverName": "Jose Miguel Romay",
+      "LapTime": 159263,
+      "Restrictor": 0,
+      "Sectors": [
+        89442,
+        33844,
+        35977
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_0",
+      "DriverName": "Jose Miguel Romay",
+      "LapTime": 95866,
+      "Restrictor": 0,
+      "Sectors": [
+        27493,
+        32962,
+        35411
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_0",
+      "DriverName": "Jose Miguel Romay",
+      "LapTime": 95514,
+      "Restrictor": 0,
+      "Sectors": [
+        26988,
+        33102,
+        35424
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_0",
+      "DriverName": "Jose Miguel Romay",
+      "LapTime": 95467,
+      "Restrictor": 0,
+      "Sectors": [
+        27116,
+        32868,
+        35483
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_0",
+      "DriverName": "Jose Miguel Romay",
+      "LapTime": 95239,
+      "Restrictor": 0,
+      "Sectors": [
+        26906,
+        32945,
+        35388
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "LapTime": 140914,
+      "Restrictor": 0,
+      "Sectors": [
+        70196,
+        34156,
+        36562
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "LapTime": 96972,
+      "Restrictor": 0,
+      "Sectors": [
+        27397,
+        33547,
+        36028
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "LapTime": 97645,
+      "Restrictor": 0,
+      "Sectors": [
+        27323,
+        33688,
+        36634
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "LapTime": 97232,
+      "Restrictor": 0,
+      "Sectors": [
+        27681,
+        33822,
+        35729
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "LapTime": 95969,
+      "Restrictor": 0,
+      "Sectors": [
+        27156,
+        33277,
+        35536
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "LapTime": 95817,
+      "Restrictor": 0,
+      "Sectors": [
+        27178,
+        33048,
+        35591
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "LapTime": 147358,
+      "Restrictor": 0,
+      "Sectors": [
+        77662,
+        33561,
+        36135
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "LapTime": 96085,
+      "Restrictor": 0,
+      "Sectors": [
+        27320,
+        32913,
+        35852
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "LapTime": 96044,
+      "Restrictor": 0,
+      "Sectors": [
+        27321,
+        32971,
+        35752
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "LapTime": 95862,
+      "Restrictor": 0,
+      "Sectors": [
+        27128,
+        32977,
+        35757
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "LapTime": 96263,
+      "Restrictor": 0,
+      "Sectors": [
+        27188,
+        33247,
+        35828
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "LapTime": 96208,
+      "Restrictor": 0,
+      "Sectors": [
+        27147,
+        33282,
+        35779
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "LapTime": 109009,
+      "Restrictor": 0,
+      "Sectors": [
+        38423,
+        34804,
+        35783
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "LapTime": 96194,
+      "Restrictor": 0,
+      "Sectors": [
+        27201,
+        33281,
+        35712
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "LapTime": 96438,
+      "Restrictor": 0,
+      "Sectors": [
+        27416,
+        33296,
+        35726
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "LapTime": 96929,
+      "Restrictor": 0,
+      "Sectors": [
+        27386,
+        33269,
+        36274
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "LapTime": 96122,
+      "Restrictor": 0,
+      "Sectors": [
+        27286,
+        33106,
+        35730
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "LapTime": 95871,
+      "Restrictor": 0,
+      "Sectors": [
+        27092,
+        33030,
+        35749
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_4",
+      "DriverName": "Juan Carlos Ortega",
+      "LapTime": 128162,
+      "Restrictor": 0,
+      "Sectors": [
+        54250,
+        35753,
+        38159
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_4",
+      "DriverName": "Juan Carlos Ortega",
+      "LapTime": 98295,
+      "Restrictor": 0,
+      "Sectors": [
+        27092,
+        33760,
+        37444
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_4",
+      "DriverName": "Juan Carlos Ortega",
+      "LapTime": 97089,
+      "Restrictor": 0,
+      "Sectors": [
+        27321,
+        33524,
+        36244
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_4",
+      "DriverName": "Juan Carlos Ortega",
+      "LapTime": 95985,
+      "Restrictor": 0,
+      "Sectors": [
+        27238,
+        32972,
+        35775
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_4",
+      "DriverName": "Juan Carlos Ortega",
+      "LapTime": 96425,
+      "Restrictor": 0,
+      "Sectors": [
+        27166,
+        33277,
+        35982
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_5",
+      "DriverName": "Ruben Marquez",
+      "LapTime": 131967,
+      "Restrictor": 0,
+      "Sectors": [
+        56353,
+        35555,
+        40059
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_5",
+      "DriverName": "Ruben Marquez",
+      "LapTime": 96106,
+      "Restrictor": 0,
+      "Sectors": [
+        27337,
+        33124,
+        35645
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_5",
+      "DriverName": "Ruben Marquez",
+      "LapTime": 96648,
+      "Restrictor": 0,
+      "Sectors": [
+        27307,
+        33426,
+        35915
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_5",
+      "DriverName": "Ruben Marquez",
+      "LapTime": 96786,
+      "Restrictor": 0,
+      "Sectors": [
+        27576,
+        33201,
+        36009
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_5",
+      "DriverName": "Ruben Marquez",
+      "LapTime": 97263,
+      "Restrictor": 0,
+      "Sectors": [
+        27828,
+        33295,
+        36140
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_6",
+      "DriverName": "Rafa Alvarez",
+      "LapTime": 115429,
+      "Restrictor": 0,
+      "Sectors": [
+        43159,
+        34308,
+        37962
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_6",
+      "DriverName": "Rafa Alvarez",
+      "LapTime": 96306,
+      "Restrictor": 0,
+      "Sectors": [
+        27267,
+        33277,
+        35762
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_6",
+      "DriverName": "Rafa Alvarez",
+      "LapTime": 96785,
+      "Restrictor": 0,
+      "Sectors": [
+        27616,
+        33251,
+        35918
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_6",
+      "DriverName": "Rafa Alvarez",
+      "LapTime": 96244,
+      "Restrictor": 0,
+      "Sectors": [
+        27475,
+        32845,
+        35924
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_6",
+      "DriverName": "Rafa Alvarez",
+      "LapTime": 96225,
+      "Restrictor": 0,
+      "Sectors": [
+        27559,
+        32918,
+        35748
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_7",
+      "DriverName": "Gino Ivan Muchiut",
+      "LapTime": 110685,
+      "Restrictor": 0,
+      "Sectors": [
+        40863,
+        33759,
+        36063
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_7",
+      "DriverName": "Gino Ivan Muchiut",
+      "LapTime": 96381,
+      "Restrictor": 0,
+      "Sectors": [
+        27350,
+        33219,
+        35812
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_7",
+      "DriverName": "Gino Ivan Muchiut",
+      "LapTime": 97991,
+      "Restrictor": 0,
+      "Sectors": [
+        27539,
+        34160,
+        36292
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_7",
+      "DriverName": "Gino Ivan Muchiut",
+      "LapTime": 96960,
+      "Restrictor": 0,
+      "Sectors": [
+        27308,
+        33309,
+        36343
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "LapTime": 100901,
+      "Restrictor": 0,
+      "Sectors": [
+        31530,
+        33331,
+        36040
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "LapTime": 96392,
+      "Restrictor": 0,
+      "Sectors": [
+        27304,
+        33304,
+        35784
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "LapTime": 97693,
+      "Restrictor": 0,
+      "Sectors": [
+        27723,
+        33669,
+        36301
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "LapTime": 97033,
+      "Restrictor": 0,
+      "Sectors": [
+        27402,
+        33435,
+        36197
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "LapTime": 96608,
+      "Restrictor": 0,
+      "Sectors": [
+        27291,
+        33236,
+        36081
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "LapTime": 97274,
+      "Restrictor": 0,
+      "Sectors": [
+        27444,
+        33781,
+        36049
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_9",
+      "DriverName": "Ramiro",
+      "LapTime": 121559,
+      "Restrictor": 0,
+      "Sectors": [
+        49141,
+        35073,
+        37345
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_9",
+      "DriverName": "Ramiro",
+      "LapTime": 98377,
+      "Restrictor": 0,
+      "Sectors": [
+        28200,
+        34082,
+        36095
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_9",
+      "DriverName": "Ramiro",
+      "LapTime": 98545,
+      "Restrictor": 0,
+      "Sectors": [
+        28068,
+        34199,
+        36279
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_9",
+      "DriverName": "Ramiro",
+      "LapTime": 98364,
+      "Restrictor": 0,
+      "Sectors": [
+        27777,
+        34335,
+        36252
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "Cuts": 0,
+      "DriverGuid": "driver_9",
+      "DriverName": "Ramiro",
+      "LapTime": 98283,
+      "Restrictor": 0,
+      "Sectors": [
+        27809,
+        33975,
+        36500
+      ],
+      "Timestamp": 1770559199,
+      "Tyre": "M",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "ContributedToFastestLap": false,
+      "SpeedTrapHits": [],
+      "Conditions": {
+        "Ambient": 25,
+        "Road": 40,
+        "Grip": 0.98,
+        "WindSpeed": 5,
+        "WindDirection": 45,
+        "RainIntensity": 0,
+        "RainWetness": 0,
+        "RainWater": 0
+      }
+    }
+  ],
+  "Result": [
+    {
+      "BallastKG": 0,
+      "CarId": 0,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_0",
+      "DriverName": "Jose Miguel Romay",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 476195,
+      "BestLap": 95239,
+      "NumLaps": 5,
+      "Cuts": 0,
+      "Team": "LOA Racing"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 1,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_1",
+      "DriverName": "Jucarcaz",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 574902,
+      "BestLap": 95817,
+      "NumLaps": 6,
+      "Cuts": 0,
+      "Team": ""
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 2,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_2",
+      "DriverName": "Kappy Astur",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 575172,
+      "BestLap": 95862,
+      "NumLaps": 6,
+      "Cuts": 0,
+      "Team": "Aviles-Sport"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 3,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_3",
+      "DriverName": "bertillo30",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 575226,
+      "BestLap": 95871,
+      "NumLaps": 6,
+      "Cuts": 0,
+      "Team": "nrc"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 4,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_4",
+      "DriverName": "Juan Carlos Ortega",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 479925,
+      "BestLap": 95985,
+      "NumLaps": 5,
+      "Cuts": 0,
+      "Team": "LOA Racing"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 5,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_5",
+      "DriverName": "Ruben Marquez",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 480530,
+      "BestLap": 96106,
+      "NumLaps": 5,
+      "Cuts": 0,
+      "Team": "Team Chermi"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 6,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_6",
+      "DriverName": "Rafa Alvarez",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 481125,
+      "BestLap": 96225,
+      "NumLaps": 5,
+      "Cuts": 0,
+      "Team": "LOA Racing"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 7,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_7",
+      "DriverName": "Gino Ivan Muchiut",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 385524,
+      "BestLap": 96381,
+      "NumLaps": 4,
+      "Cuts": 0,
+      "Team": "GIM"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 8,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_8",
+      "DriverName": "Luciano DR.",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 578352,
+      "BestLap": 96392,
+      "NumLaps": 6,
+      "Cuts": 0,
+      "Team": "LDR"
+    },
+    {
+      "BallastKG": 0,
+      "CarId": 9,
+      "CarModel": "chawaii_subaru_wrx_sti_gr3",
+      "ClassID": "f06f18d6-77d5-4309-b17e-a9923583f6db",
+      "Disqualified": false,
+      "DriverGuid": "driver_9",
+      "DriverName": "Ramiro",
+      "DriverNation": "",
+      "HasPenalty": false,
+      "LapPenalty": 0,
+      "Restrictor": 0,
+      "TotalTime": 491415,
+      "BestLap": 98283,
+      "NumLaps": 5,
+      "Cuts": 0,
+      "Team": "Loa Racing"
+    }
+  ],
+  "TrackName": "autopolis",
+  "TrackConfig": "international",
+  "Type": "QUALIFY",
+  "Date": "2026-02-08",
+  "SessionFile": "ronda4_qualify.json",
+  "ChampionshipID": "supergt",
+  "RaceWeekendID": "ronda4"
+}
