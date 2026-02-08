@@ -531,6 +531,54 @@
             gap: 15px;
             justify-content: center;
         }
+        
+        /* Botones de sesión (Qualify/Race) */
+        .session-buttons {
+            margin: 20px 0;
+            text-align: center;
+            display: none;
+        }
+        
+        .session-btn {
+            padding: 12px 30px;
+            margin: 0 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            border: 3px solid;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Orbitron', sans-serif;
+            background: rgba(0,0,0,0.3);
+        }
+        
+        .session-btn.qualify {
+            color: #00bcd4;
+            border-color: #00bcd4;
+        }
+        
+        .session-btn.race {
+            color: #ff5722;
+            border-color: #ff5722;
+        }
+        
+        .session-btn.active {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px currentColor;
+        }
+        
+        .session-btn.qualify.active {
+            background: linear-gradient(135deg, rgba(0,188,212,0.3), rgba(0,150,170,0.3));
+        }
+        
+        .session-btn.race.active {
+            background: linear-gradient(135deg, rgba(255,87,34,0.3), rgba(220,50,20,0.3));
+        }
+        
+        .session-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px currentColor;
+        }
 
         .race-btn {
             background: linear-gradient(135deg, rgba(255,0,0,0.8) 0%, rgba(200,0,0,0.8) 100%);
@@ -910,6 +958,11 @@
             <button class="race-btn" onclick="loadRace(7)">Ronda 7</button>
             <button class="race-btn" onclick="loadRace(8)">Ronda 8</button>
         </div>
+        
+        <div class="session-buttons" id="sessionButtons">
+            <button class="session-btn qualify active" onclick="loadSession('Qualify')">📋 Clasificación</button>
+            <button class="session-btn race" onclick="loadSession('Race')">🏁 Carrera</button>
+        </div>
 
         <h1>Resultados de Carrera</h1>
         
@@ -968,6 +1021,8 @@
         let chart = null;
         let currentLap = 1;
         let animationInterval = null;
+        let currentRaceNumber = null;
+        let currentSession = 'Race'; // Por defecto carrera
 
         // Estilos CSS
         const styles = `
@@ -1829,7 +1884,24 @@
         }
 
         function loadRace(raceNumber) {
-            const racePath = `SuperGT/Ronda ${raceNumber}.json`;
+            currentRaceNumber = raceNumber;
+            // Mostrar botones de sesión
+            document.getElementById('sessionButtons').style.display = 'block';
+            // Cargar la sesión actual (por defecto Race)
+            loadSession(currentSession);
+        }
+        
+        function loadSession(sessionType) {
+            if (!currentRaceNumber) return;
+            
+            currentSession = sessionType;
+            const racePath = `SuperGT/Ronda ${currentRaceNumber} - ${sessionType}.json`;
+            
+            // Actualizar botones activos
+            document.querySelectorAll('.session-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.session-btn.${sessionType.toLowerCase()}`).classList.add('active');
             
             // Limpiar el intervalo de animación existente si lo hay
             if (animationInterval) {
@@ -1856,15 +1928,15 @@
                     }
                 })
                 .catch(error => {
-                    console.error('Error al cargar la ronda:', error);
+                    console.error('Error al cargar la sesión:', error);
                     // Destruir el chart existente si hay error
                     if (chart) {
                         chart.destroy();
                         chart = null;
                     }
-                    document.getElementById('raceInfo').innerHTML = '<h2>Aun no hay datos de esta ronda</h2>';
+                    document.getElementById('raceInfo').innerHTML = '<h2>Aun no hay datos de esta sesión</h2>';
                     document.getElementById('tableBody').innerHTML = 
-                        '<tr><td colspan="9">Aun no hay datos de esta ronda</td></tr>';
+                        '<tr><td colspan="9">Aun no hay datos de esta sesión</td></tr>';
                     document.getElementById('participationTableBody').innerHTML = '';
                 });
         }
