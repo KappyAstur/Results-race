@@ -961,6 +961,11 @@
             <button class="race-btn" onclick="loadRace(7)">Ronda 7</button>
             <button class="race-btn" onclick="loadRace(8)">Ronda 8</button>
         </div>
+        
+        <div class="session-buttons" id="sessionButtons">
+            <button class="session-btn qualify" onclick="loadSession('Qualify')">📋 Clasificación</button>
+            <button class="session-btn race active" onclick="loadSession('Race')">🏁 Carrera</button>
+        </div>
 
         <h1>Resultados de Carrera</h1>
         
@@ -1019,6 +1024,8 @@
         let chart = null;
         let currentLap = 1;
         let animationInterval = null;
+        let currentRaceNumber = null;
+        let currentSession = 'Race'; // Por defecto carrera
 
         // Estilos CSS
         const styles = `
@@ -1880,7 +1887,30 @@
         }
 
         function loadRace(raceNumber) {
-            const racePath = `SuperGT/Ronda ${raceNumber}.json`;
+            currentRaceNumber = raceNumber;
+            currentSession = 'Race'; // Resetear a Race por defecto
+            // Mostrar botones de sesión
+            document.getElementById('sessionButtons').style.display = 'block';
+            // Resetear botones activos
+            document.querySelectorAll('.session-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector('.session-btn.race').classList.add('active');
+            // Cargar la carrera por defecto
+            loadSession('Race');
+        }
+        
+        function loadSession(sessionType) {
+            if (!currentRaceNumber) return;
+            
+            currentSession = sessionType;
+            const racePath = `SuperGT/Ronda ${currentRaceNumber} - ${sessionType}.json`;
+            
+            // Actualizar botones activos
+            document.querySelectorAll('.session-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.session-btn.${sessionType.toLowerCase()}`).classList.add('active');
             
             // Limpiar el intervalo de animación existente si lo hay
             if (animationInterval) {
@@ -1907,15 +1937,15 @@
                     }
                 })
                 .catch(error => {
-                    console.error('Error al cargar la ronda:', error);
+                    console.error('Error al cargar la sesión:', error);
                     // Destruir el chart existente si hay error
                     if (chart) {
                         chart.destroy();
                         chart = null;
                     }
-                    document.getElementById('raceInfo').innerHTML = '<h2>Aun no hay datos de esta ronda</h2>';
+                    document.getElementById('raceInfo').innerHTML = '<h2>Aun no hay datos de esta sesión</h2>';
                     document.getElementById('tableBody').innerHTML = 
-                        '<tr><td colspan="9">Aun no hay datos de esta ronda</td></tr>';
+                        '<tr><td colspan="9">Aun no hay datos de esta sesión</td></tr>';
                     document.getElementById('participationTableBody').innerHTML = '';
                 });
         }
